@@ -54,6 +54,13 @@
   background-color: #e5e5e5;
 }
 
+.centered-thing {
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
 /*
    * Extra utilities
    */
