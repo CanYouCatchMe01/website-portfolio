@@ -10,6 +10,22 @@
     },
     "items": [
         {
+            "id": "https://cazzola.click/synthax-error.html",
+            "url": "https://cazzola.click/synthax-error.html",
+            "title": "SYNT(H)AX ERROR",
+            "summary": "<h5>Details:</h5>\n<h6></h6>\n<h6></h6>\n<ul>\n<li>My first group project att The Game Assmbly.</li>\n<li>6 week development (20h/week) with a team of 6 programmers, 2 level designers and 4 artists.</li>\n<li>Made in Unity with C#.</li>\n<li>Inspired by Geometry Dash.</li>\n</ul>\n<h5>My contibutions:</h5>\n<ul>\n<li>The player movement</li>\n</ul>\n<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/sSO_F7Sg_H8?start=10&amp;mute=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\"></iframe></div>\n",
+            "content_html": "<h5>Details:</h5>\n<h6></h6>\n<h6></h6>\n<ul>\n<li>My first group project att The Game Assmbly.</li>\n<li>6 week development (20h/week) with a team of 6 programmers, 2 level designers and 4 artists.</li>\n<li>Made in Unity with C#.</li>\n<li>Inspired by Geometry Dash.</li>\n</ul>\n<h5>My contibutions:</h5>\n<ul>\n<li>The player movement</li>\n</ul>\n<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/sSO_F7Sg_H8?start=10&amp;mute=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\"></iframe></div>\n\n<h5>Player movement:</h5>\n<p>To get the player movement right I used <a href=\"https://gdforum.freeforums.net/thread/48749/p1kachu-presents-physics-geometry-dash\">this post created by P1kachu</a> and I had to translate the mathematical formulas into C# code in Unity.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://cazzola.click/media/posts/3/Geometry-matrics.png\" alt=\"\" width=\"296\" height=\"182\" sizes=\"(min-width: 37.5em) 1600px, 80vw\" srcset=\"https://cazzola.click/media/posts/3/responsive/Geometry-matrics-xs.png 384w ,https://cazzola.click/media/posts/3/responsive/Geometry-matrics-sm.png 600w ,https://cazzola.click/media/posts/3/responsive/Geometry-matrics-md.png 768w ,https://cazzola.click/media/posts/3/responsive/Geometry-matrics-lg.png 1200w ,https://cazzola.click/media/posts/3/responsive/Geometry-matrics-xl.png 1600w\"></figure>",
+            "image": "https://cazzola.click/media/posts/3/geomery.gif",
+            "author": {
+                "name": "Marcus Cazzola"
+            },
+            "tags": [
+                   "Group Projects"
+            ],
+            "date_published": "2023-02-04T20:19:50+01:00",
+            "date_modified": "2023-02-04T20:36:27+01:00"
+        },
+        {
             "id": "https://cazzola.click/telos.html",
             "url": "https://cazzola.click/telos.html",
             "title": "Telos",

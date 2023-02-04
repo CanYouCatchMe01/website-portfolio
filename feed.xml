@@ -3,12 +3,67 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-02-04T20:15:55+01:00</updated>
+    <updated>2023-02-04T20:36:27+01:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
     <id>https://cazzola.click</id>
 
+    <entry>
+        <title>SYNT(H)AX ERROR</title>
+        <author>
+            <name>Marcus Cazzola</name>
+        </author>
+        <link href="https://cazzola.click/synthax-error.html"/>
+        <id>https://cazzola.click/synthax-error.html</id>
+        <media:content url="https://cazzola.click/media/posts/3/geomery.gif" medium="image" />
+            <category term="Group Projects"/>
+
+        <updated>2023-02-04T20:36:27+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://cazzola.click/media/posts/3/geomery.gif" alt="" />
+                    <h5>Details:</h5>
+<h6></h6>
+<h6></h6>
+<ul>
+<li>My first group project att The Game Assmbly.</li>
+<li>6 week development (20h/week) with a team of 6 programmers, 2 level designers and 4 artists.</li>
+<li>Made in Unity with C#.</li>
+<li>Inspired by Geometry Dash.</li>
+</ul>
+<h5>My contibutions:</h5>
+<ul>
+<li>The player movement</li>
+</ul>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/sSO_F7Sg_H8?start=10&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cazzola.click/media/posts/3/geomery.gif" class="type:primaryImage" alt="" /></p>
+                <h5>Details:</h5>
+<h6></h6>
+<h6></h6>
+<ul>
+<li>My first group project att The Game Assmbly.</li>
+<li>6 week development (20h/week) with a team of 6 programmers, 2 level designers and 4 artists.</li>
+<li>Made in Unity with C#.</li>
+<li>Inspired by Geometry Dash.</li>
+</ul>
+<h5>My contibutions:</h5>
+<ul>
+<li>The player movement</li>
+</ul>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/sSO_F7Sg_H8?start=10&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
+
+<h5>Player movement:</h5>
+<p>To get the player movement right I used <a href="https://gdforum.freeforums.net/thread/48749/p1kachu-presents-physics-geometry-dash">this post created by P1kachu</a> and I had to translate the mathematical formulas into C# code in Unity.</p>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/3/Geometry-matrics.png" alt="" width="296" height="182" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/3/responsive/Geometry-matrics-xs.png 384w ,https://cazzola.click/media/posts/3/responsive/Geometry-matrics-sm.png 600w ,https://cazzola.click/media/posts/3/responsive/Geometry-matrics-md.png 768w ,https://cazzola.click/media/posts/3/responsive/Geometry-matrics-lg.png 1200w ,https://cazzola.click/media/posts/3/responsive/Geometry-matrics-xl.png 1600w"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Telos</title>
         <author>
