@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Marcus Cazzola Portfolio</title>
+    <link href="https://cazzola.click/feed.xml" rel="self" />
+    <link href="https://cazzola.click" />
+    <updated>2023-02-04T14:12:53+01:00</updated>
+    <author>
+        <name>Marcus Cazzola</name>
+    </author>
+    <id>https://cazzola.click</id>
+
+    <entry>
+        <title>Telos</title>
+        <author>
+            <name>Marcus Cazzola</name>
+        </author>
+        <link href="https://cazzola.click/telos.html"/>
+        <id>https://cazzola.click/telos.html</id>
+        <media:content url="https://cazzola.click/media/posts/2/telos.gif" medium="image" />
+            <category term="Group Projects"/>
+
+        <updated>2023-02-04T14:12:53+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://cazzola.click/media/posts/2/telos.gif" alt="" />
+                    <h5>Details:</h5>
+<h6></h6>
+<h6></h6>
+<ul>
+<li>A 3D platforming game.</li>
+<li>8 week development (20h/week) with a team of 5 programmers, 4 level designers and 5 artists. Game project 4 at The Game Assembly.</li>
+<li>Made in TGE, the school's in-house C++ game engine.</li>
+</ul>
+<h5>My contibutions:</h5>
+<ul>
+<li>The collision system which is based on ray vs box interection.</li>
+<li>The intro and outro scripted events.</li>
+</ul>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/WDW5AWl-FtY?start=9&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cazzola.click/media/posts/2/telos.gif" class="type:primaryImage" alt="" /></p>
+                <h5>Details:</h5>
+<h6></h6>
+<h6></h6>
+<ul>
+<li>A 3D platforming game.</li>
+<li>8 week development (20h/week) with a team of 5 programmers, 4 level designers and 5 artists. Game project 4 at The Game Assembly.</li>
+<li>Made in TGE, the school's in-house C++ game engine.</li>
+</ul>
+<h5>My contibutions:</h5>
+<ul>
+<li>The collision system which is based on ray vs box interection.</li>
+<li>The intro and outro scripted events.</li>
+</ul>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/WDW5AWl-FtY?start=9&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
+
+<h5>Ray vs box collision system:</h5>
+<p>During the project I implemented the collision system which was based on <a href="https://youtu.be/8JJ-4JgR7Dg">javidx9 Youtube video</a>. </p>
+<figure class="post__image"><img loading="lazy"  style="outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;" src="https://cazzola.click/media/posts/2/telos-collision.gif" alt="" width="440" height="248"></figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Hammer Time</title>
+        <author>
+            <name>Marcus Cazzola</name>
+        </author>
+        <link href="https://cazzola.click/hamer-time.html"/>
+        <id>https://cazzola.click/hamer-time.html</id>
+        <media:content url="https://cazzola.click/media/posts/1/sp3.gif" medium="image" />
+            <category term="Group Projects"/>
+
+        <updated>2023-02-04T14:06:38+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://cazzola.click/media/posts/1/sp3.gif" alt="" />
+                    <h5>Details:</h5>
+<h6></h6>
+<h6></h6>
+<ul>
+<li>A 2D game inspired by Ikaruga.</li>
+<li>8 week development (20h/week) with a team of 5 programmers, 3 level designers and 4 artists. Game project 3 at The Game Assembly.</li>
+<li>Made in TGA2D, the school's in-house C++ game engine.</li>
+</ul>
+<h5>My contibutions:</h5>
+<ul>
+<li>Player movement.</li>
+<li>Xbox and keyboard input manager.</li>
+<li>Sprite sheet based animations.</li>
+</ul>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/AQroTOqMwWY?start=15&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cazzola.click/media/posts/1/sp3.gif" class="type:primaryImage" alt="" /></p>
+                <h5>Details:</h5>
+<h6></h6>
+<h6></h6>
+<ul>
+<li>A 2D game inspired by Ikaruga.</li>
+<li>8 week development (20h/week) with a team of 5 programmers, 3 level designers and 4 artists. Game project 3 at The Game Assembly.</li>
+<li>Made in TGA2D, the school's in-house C++ game engine.</li>
+</ul>
+<h5>My contibutions:</h5>
+<ul>
+<li>Player movement.</li>
+<li>Xbox and keyboard input manager.</li>
+<li>Sprite sheet based animations.</li>
+</ul>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/AQroTOqMwWY?start=15&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div>
+
+<h5>Spritesheet based animations:</h5>
+<p>During the project, I had to develop a pipeline for importing sprite sheets into the TGA2D game engine. I came up with a solution where the artist used <a href="https://www.codeandweb.com/texturepacker">TexturePacker </a>to export the sprite sheet and a JSON file that described the coordinates of each sprite. I then created a pipeline that could read the JSON file and develop an animation system capable of switching between different animations.</p>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/1/sheet_game_crop.png" alt="" width="4081" height="1351" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/1/responsive/sheet_game_crop-xs.png 384w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-sm.png 600w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-md.png 768w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-lg.png 1200w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-xl.png 1600w"></figure>
+            ]]>
+        </content>
+    </entry>
+</feed>

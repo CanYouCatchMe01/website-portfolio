@@ -1,0 +1,45 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Marcus Cazzola Portfolio",
+    "description": "",
+    "home_page_url": "https://cazzola.click",
+    "feed_url": "https://cazzola.click/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Marcus Cazzola"
+    },
+    "items": [
+        {
+            "id": "https://cazzola.click/telos.html",
+            "url": "https://cazzola.click/telos.html",
+            "title": "Telos",
+            "summary": "<h5>Details:</h5>\n<h6></h6>\n<h6></h6>\n<ul>\n<li>A 3D platforming game.</li>\n<li>8 week development (20h/week) with a team of 5 programmers, 4 level designers and 5 artists. Game project 4 at The Game Assembly.</li>\n<li>Made in TGE, the school's in-house C++ game engine.</li>\n</ul>\n<h5>My contibutions:</h5>\n<ul>\n<li>The collision system which is based on ray vs box interection.</li>\n<li>The intro and outro scripted events.</li>\n</ul>\n<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WDW5AWl-FtY?start=9&amp;mute=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\"></iframe></div>\n",
+            "content_html": "<h5>Details:</h5>\n<h6></h6>\n<h6></h6>\n<ul>\n<li>A 3D platforming game.</li>\n<li>8 week development (20h/week) with a team of 5 programmers, 4 level designers and 5 artists. Game project 4 at The Game Assembly.</li>\n<li>Made in TGE, the school's in-house C++ game engine.</li>\n</ul>\n<h5>My contibutions:</h5>\n<ul>\n<li>The collision system which is based on ray vs box interection.</li>\n<li>The intro and outro scripted events.</li>\n</ul>\n<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WDW5AWl-FtY?start=9&amp;mute=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\"></iframe></div>\n\n<h5>Ray vs box collision system:</h5>\n<p>During the project I implemented the collision system which was based on <a href=\"https://youtu.be/8JJ-4JgR7Dg\">javidx9 Youtube video</a>. </p>\n<figure class=\"post__image\"><img loading=\"lazy\"  style=\"outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;\" src=\"https://cazzola.click/media/posts/2/telos-collision.gif\" alt=\"\" width=\"440\" height=\"248\"></figure>",
+            "image": "https://cazzola.click/media/posts/2/telos.gif",
+            "author": {
+                "name": "Marcus Cazzola"
+            },
+            "tags": [
+                   "Group Projects"
+            ],
+            "date_published": "2023-02-04T12:34:52+01:00",
+            "date_modified": "2023-02-04T14:12:53+01:00"
+        },
+        {
+            "id": "https://cazzola.click/hamer-time.html",
+            "url": "https://cazzola.click/hamer-time.html",
+            "title": "Hammer Time",
+            "summary": "<h5>Details:</h5>\n<h6></h6>\n<h6></h6>\n<ul>\n<li>A 2D game inspired by Ikaruga.</li>\n<li>8 week development (20h/week) with a team of 5 programmers, 3 level designers and 4 artists. Game project 3 at The Game Assembly.</li>\n<li>Made in TGA2D, the school's in-house C++ game engine.</li>\n</ul>\n<h5>My contibutions:</h5>\n<ul>\n<li>Player movement.</li>\n<li>Xbox and keyboard input manager.</li>\n<li>Sprite sheet based animations.</li>\n</ul>\n<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/AQroTOqMwWY?start=15&amp;mute=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\"></iframe></div>\n",
+            "content_html": "<h5>Details:</h5>\n<h6></h6>\n<h6></h6>\n<ul>\n<li>A 2D game inspired by Ikaruga.</li>\n<li>8 week development (20h/week) with a team of 5 programmers, 3 level designers and 4 artists. Game project 3 at The Game Assembly.</li>\n<li>Made in TGA2D, the school's in-house C++ game engine.</li>\n</ul>\n<h5>My contibutions:</h5>\n<ul>\n<li>Player movement.</li>\n<li>Xbox and keyboard input manager.</li>\n<li>Sprite sheet based animations.</li>\n</ul>\n<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/AQroTOqMwWY?start=15&amp;mute=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\"></iframe></div>\n\n<h5>Spritesheet based animations:</h5>\n<p>During the project, I had to develop a pipeline for importing sprite sheets into the TGA2D game engine. I came up with a solution where the artist used <a href=\"https://www.codeandweb.com/texturepacker\">TexturePacker </a>to export the sprite sheet and a JSON file that described the coordinates of each sprite. I then created a pipeline that could read the JSON file and develop an animation system capable of switching between different animations.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://cazzola.click/media/posts/1/sheet_game_crop.png\" alt=\"\" width=\"4081\" height=\"1351\" sizes=\"(min-width: 37.5em) 1600px, 80vw\" srcset=\"https://cazzola.click/media/posts/1/responsive/sheet_game_crop-xs.png 384w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-sm.png 600w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-md.png 768w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-lg.png 1200w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-xl.png 1600w\"></figure>",
+            "image": "https://cazzola.click/media/posts/1/sp3.gif",
+            "author": {
+                "name": "Marcus Cazzola"
+            },
+            "tags": [
+                   "Group Projects"
+            ],
+            "date_published": "2023-02-04T10:21:38+01:00",
+            "date_modified": "2023-02-04T14:06:38+01:00"
+        }
+    ]
+}
