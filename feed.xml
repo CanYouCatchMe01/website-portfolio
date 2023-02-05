@@ -3,12 +3,34 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-02-05T10:49:37+01:00</updated>
+    <updated>2023-02-05T11:26:46+01:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
     <id>https://cazzola.click</id>
 
+    <entry>
+        <title>About me</title>
+        <author>
+            <name>Marcus Cazzola</name>
+        </author>
+        <link href="https://cazzola.click/about-me.html"/>
+        <id>https://cazzola.click/about-me.html</id>
+            <category term="About Me"/>
+
+        <updated>2023-02-05T11:26:46+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Hi, Im Marcus Cazzola.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <figure class="post__image post__image--center"><img loading="lazy"  src="https://cazzola.click/media/posts/4/profilbild_crop-2.jpg" alt="" width="172" height="229" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/4/responsive/profilbild_crop-2-xs.jpg 384w ,https://cazzola.click/media/posts/4/responsive/profilbild_crop-2-sm.jpg 600w ,https://cazzola.click/media/posts/4/responsive/profilbild_crop-2-md.jpg 768w ,https://cazzola.click/media/posts/4/responsive/profilbild_crop-2-lg.jpg 1200w ,https://cazzola.click/media/posts/4/responsive/profilbild_crop-2-xl.jpg 1600w"></figure>
+<p>Hi, Im Marcus Cazzola.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>SYNT(H)AX ERROR</title>
         <author>

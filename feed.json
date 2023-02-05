@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://cazzola.click/about-me.html",
+            "url": "https://cazzola.click/about-me.html",
+            "title": "About me",
+            "summary": "Hi, Im Marcus Cazzola.",
+            "content_html": "<figure class=\"post__image post__image--center\"><img loading=\"lazy\"  src=\"https://cazzola.click/media/posts/4/profilbild_crop-2.jpg\" alt=\"\" width=\"172\" height=\"229\" sizes=\"(min-width: 37.5em) 1600px, 80vw\" srcset=\"https://cazzola.click/media/posts/4/responsive/profilbild_crop-2-xs.jpg 384w ,https://cazzola.click/media/posts/4/responsive/profilbild_crop-2-sm.jpg 600w ,https://cazzola.click/media/posts/4/responsive/profilbild_crop-2-md.jpg 768w ,https://cazzola.click/media/posts/4/responsive/profilbild_crop-2-lg.jpg 1200w ,https://cazzola.click/media/posts/4/responsive/profilbild_crop-2-xl.jpg 1600w\"></figure>\n<p>Hi, Im Marcus Cazzola.</p>",
+            "author": {
+                "name": "Marcus Cazzola"
+            },
+            "tags": [
+                   "About Me"
+            ],
+            "date_published": "2023-02-05T11:06:25+01:00",
+            "date_modified": "2023-02-05T11:26:46+01:00"
+        },
+        {
             "id": "https://cazzola.click/synthax-error.html",
             "url": "https://cazzola.click/synthax-error.html",
             "title": "SYNT(H)AX ERROR",
