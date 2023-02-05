@@ -10,6 +10,22 @@
     },
     "items": [
         {
+            "id": "https://cazzola.click/ai-generated-bike-frame.html",
+            "url": "https://cazzola.click/ai-generated-bike-frame.html",
+            "title": "AI generated bike frame",
+            "summary": "During my time in \"Gymnasiet\" I was very intressted in CAD and 3D printing. I used Fusion 360’s Generative design&hellip;",
+            "content_html": "<p>During my time in \"Gymnasiet\" I was very intressted in CAD and 3D printing. I used Fusion 360’s Generative design model to create this optimal bike frame which is both very light and durable.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://cazzola.click/media/posts/5/AI_Bike_frame-2.png\" alt=\"\" width=\"363\" height=\"192\" sizes=\"(min-width: 37.5em) 1600px, 80vw\" srcset=\"https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-xs.png 384w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-sm.png 600w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-md.png 768w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-lg.png 1200w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-xl.png 1600w\"></figure>\n<h6>Here is a video on how the model removes material for every generation:</h6>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://cazzola.click/media/posts/5/mic_timelaps.gif\" alt=\"\" width=\"296\" height=\"167\"></figure>",
+            "image": "https://cazzola.click/media/posts/5/AI_Bike_frame_crop-2.png",
+            "author": {
+                "name": "Marcus Cazzola"
+            },
+            "tags": [
+                   "Personal Projects"
+            ],
+            "date_published": "2023-02-05T12:55:58+01:00",
+            "date_modified": "2023-02-05T13:01:22+01:00"
+        },
+        {
             "id": "https://cazzola.click/about-me.html",
             "url": "https://cazzola.click/about-me.html",
             "title": "About me",

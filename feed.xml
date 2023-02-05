@@ -3,12 +3,39 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-02-05T11:26:46+01:00</updated>
+    <updated>2023-02-05T13:01:22+01:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
     <id>https://cazzola.click</id>
 
+    <entry>
+        <title>AI generated bike frame</title>
+        <author>
+            <name>Marcus Cazzola</name>
+        </author>
+        <link href="https://cazzola.click/ai-generated-bike-frame.html"/>
+        <id>https://cazzola.click/ai-generated-bike-frame.html</id>
+        <media:content url="https://cazzola.click/media/posts/5/AI_Bike_frame_crop-2.png" medium="image" />
+            <category term="Personal Projects"/>
+
+        <updated>2023-02-05T13:01:22+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://cazzola.click/media/posts/5/AI_Bike_frame_crop-2.png" alt="" />
+                    During my time in "Gymnasiet" I was very intressted in CAD and 3D printing. I used Fusion 360’s Generative design&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cazzola.click/media/posts/5/AI_Bike_frame_crop-2.png" class="type:primaryImage" alt="" /></p>
+                <p>During my time in "Gymnasiet" I was very intressted in CAD and 3D printing. I used Fusion 360’s Generative design model to create this optimal bike frame which is both very light and durable.</p>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/5/AI_Bike_frame-2.png" alt="" width="363" height="192" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-xs.png 384w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-sm.png 600w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-md.png 768w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-lg.png 1200w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-xl.png 1600w"></figure>
+<h6>Here is a video on how the model removes material for every generation:</h6>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/5/mic_timelaps.gif" alt="" width="296" height="167"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>About me</title>
         <author>
