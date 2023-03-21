@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-02-05T13:01:22+01:00</updated>
+    <updated>2023-03-21T11:28:40+01:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://cazzola.click/media/posts/5/AI_Bike_frame_crop-2.png" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-02-05T13:01:22+01:00</updated>
+        <updated>2023-03-21T10:54:56+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/5/AI_Bike_frame_crop-2.png" alt="" />
@@ -68,23 +68,21 @@
         <media:content url="https://cazzola.click/media/posts/3/geomery_small.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-02-05T10:41:01+01:00</updated>
+        <updated>2023-03-21T10:54:45+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/3/geomery_small.gif" alt="" />
-                    <h5>Details:</h5>
-<h6></h6>
-<h6></h6>
+                    <h5><strong>Details:</strong></h5>
 <ul>
-<li>My first group project att The Game Assmbly.</li>
-<li>6 week development (20h/week) with a team of 6 programmers, 2 level designers and 4 artists.</li>
-<li>Made in Unity with C#.</li>
-<li>Inspired by Geometry Dash.</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">My first group project att The Game Assembly.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">6-week development (20h/week) with a team of 6 programmers, 2 level designers and 4 artists.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in Unity with C#.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Inspired by Geometry Dash.</span></li>
 </ul>
-<h5>My contibutions:</h5>
+<h5><strong>My contributions:</strong></h5>
 <ul>
-<li>The player movement</li>
-<li>Outline shader on the cubes</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The player movement</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Outline shader on the cubes</span></li>
 </ul>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/sSO_F7Sg_H8?start=10&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
 
@@ -93,24 +91,22 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://cazzola.click/media/posts/3/geomery_small.gif" class="type:primaryImage" alt="" /></p>
-                <h5>Details:</h5>
-<h6></h6>
-<h6></h6>
+                <h5><strong>Details:</strong></h5>
 <ul>
-<li>My first group project att The Game Assmbly.</li>
-<li>6 week development (20h/week) with a team of 6 programmers, 2 level designers and 4 artists.</li>
-<li>Made in Unity with C#.</li>
-<li>Inspired by Geometry Dash.</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">My first group project att The Game Assembly.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">6-week development (20h/week) with a team of 6 programmers, 2 level designers and 4 artists.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in Unity with C#.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Inspired by Geometry Dash.</span></li>
 </ul>
-<h5>My contibutions:</h5>
+<h5><strong>My contributions:</strong></h5>
 <ul>
-<li>The player movement</li>
-<li>Outline shader on the cubes</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The player movement</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Outline shader on the cubes</span></li>
 </ul>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/sSO_F7Sg_H8?start=10&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
 
 <h5>Player movement:</h5>
-<p>To get the player movement right I used <a href="https://gdforum.freeforums.net/thread/48749/p1kachu-presents-physics-geometry-dash">this post created by P1kachu</a> and I had to translate the mathematical formulas into C# code in Unity.</p>
+<p>To get the player movement right I used <a href="https://gdforum.freeforums.net/thread/48749/p1kachu-presents-physics-geometry-dash" target="_blank" rel="noopener noreferrer">this post created by P1kachu</a> and I had to translate the mathematical formulas into C# code in Unity.</p>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/3/Geometry-matrics.png" alt="" width="296" height="182" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/3/responsive/Geometry-matrics-xs.png 384w ,https://cazzola.click/media/posts/3/responsive/Geometry-matrics-sm.png 600w ,https://cazzola.click/media/posts/3/responsive/Geometry-matrics-md.png 768w ,https://cazzola.click/media/posts/3/responsive/Geometry-matrics-lg.png 1200w ,https://cazzola.click/media/posts/3/responsive/Geometry-matrics-xl.png 1600w"></figure>
             ]]>
         </content>
@@ -125,22 +121,20 @@
         <media:content url="https://cazzola.click/media/posts/2/telos_medium.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-02-05T10:49:37+01:00</updated>
+        <updated>2023-03-21T10:54:02+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/2/telos_medium.gif" alt="" />
-                    <h5>Details:</h5>
-<h6></h6>
-<h6></h6>
+                    <h5><strong>Details:</strong></h5>
 <ul>
-<li>A 3D platforming game.</li>
-<li>8 week development (20h/week) with a team of 5 programmers, 4 level designers and 5 artists. Game project 4 at The Game Assembly.</li>
-<li>Made in TGE, the school's in-house C++ game engine.</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A 3D platforming game.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">8-week development (20h/week) with a team of 5 programmers, 4 level designers and 5 artists. Game project 4 at The Game Assembly.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in TGE, the school's in-house C++ game engine.</span></li>
 </ul>
-<h5>My contibutions:</h5>
+<h5><strong>My contributions:</strong></h5>
 <ul>
-<li>The collision system which is based on ray vs box interection.</li>
-<li>The intro and outro scripted events.</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The collision system is based on segment vs box interaction.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The intro and outro scripted events.</span></li>
 </ul>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/WDW5AWl-FtY?start=9&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
 
@@ -149,24 +143,23 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://cazzola.click/media/posts/2/telos_medium.gif" class="type:primaryImage" alt="" /></p>
-                <h5>Details:</h5>
-<h6></h6>
-<h6></h6>
+                <h5><strong>Details:</strong></h5>
 <ul>
-<li>A 3D platforming game.</li>
-<li>8 week development (20h/week) with a team of 5 programmers, 4 level designers and 5 artists. Game project 4 at The Game Assembly.</li>
-<li>Made in TGE, the school's in-house C++ game engine.</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A 3D platforming game.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">8-week development (20h/week) with a team of 5 programmers, 4 level designers and 5 artists. Game project 4 at The Game Assembly.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in TGE, the school's in-house C++ game engine.</span></li>
 </ul>
-<h5>My contibutions:</h5>
+<h5><strong>My contributions:</strong></h5>
 <ul>
-<li>The collision system which is based on ray vs box interection.</li>
-<li>The intro and outro scripted events.</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The collision system is based on segment vs box interaction.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The intro and outro scripted events.</span></li>
 </ul>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/WDW5AWl-FtY?start=9&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
 
-<h5>Ray vs box collision system:</h5>
-<p>During the project I implemented the collision system which was based on <a href="https://youtu.be/8JJ-4JgR7Dg">javidx9 Youtube video</a>. </p>
+<h5>Segment vs box collision system:</h5>
 <figure class="post__image"><img loading="lazy"  style="outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;" src="https://cazzola.click/media/posts/2/telos-collision.gif" alt="" width="440" height="248"></figure>
+<p>During the project I implemented the collision system which was based on <a href="https://youtu.be/8JJ-4JgR7Dg" target="_blank" rel="noopener noreferrer">javidx9 Youtube video</a>. <span style="font-weight: 400;">The system works by that dynamic object creates a segment from its current position to the next position in the direction of its velocity. If the segment hits a box it will move the dynamic object to the hit point. If the segment does not hit a box it will move the dynamic object to the end of the segment. This solution is frame independent so the dynamic object will still collide with boxes during very low framerates.</span></p>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/2/ray_vs_box.gif" alt="" width="653" height="368"></figure>
             ]]>
         </content>
     </entry>
@@ -180,7 +173,7 @@
         <media:content url="https://cazzola.click/media/posts/1/sp3.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-02-05T10:40:49+01:00</updated>
+        <updated>2023-03-21T11:28:40+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/1/sp3.gif" alt="" />
@@ -188,15 +181,15 @@
 <h6></h6>
 <h6></h6>
 <ul>
-<li>A 2D game inspired by Ikaruga.</li>
-<li>8 week development (20h/week) with a team of 5 programmers, 3 level designers and 4 artists. Game project 3 at The Game Assembly.</li>
-<li>Made in TGA2D, the school's in-house C++ game engine.</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A 2D game inspired by Ikaruga.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">8-week development (20h/week) with a team of 5 programmers, 3 level designers and 4 artists. Game project 3 at The Game Assembly.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in TGA2D, the school's in-house C++ game engine.</span></li>
 </ul>
-<h5>My contibutions:</h5>
+<h5><strong>My contributions:</strong></h5>
 <ul>
-<li>Player movement.</li>
-<li>Xbox and keyboard input manager.</li>
-<li>Sprite sheet based animations.</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Player movement.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Xbox and keyboard input manager.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Sprite sheet-based animations.</span></li>
 </ul>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/AQroTOqMwWY?start=15&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -209,21 +202,25 @@
 <h6></h6>
 <h6></h6>
 <ul>
-<li>A 2D game inspired by Ikaruga.</li>
-<li>8 week development (20h/week) with a team of 5 programmers, 3 level designers and 4 artists. Game project 3 at The Game Assembly.</li>
-<li>Made in TGA2D, the school's in-house C++ game engine.</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A 2D game inspired by Ikaruga.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">8-week development (20h/week) with a team of 5 programmers, 3 level designers and 4 artists. Game project 3 at The Game Assembly.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in TGA2D, the school's in-house C++ game engine.</span></li>
 </ul>
-<h5>My contibutions:</h5>
+<h5><strong>My contributions:</strong></h5>
 <ul>
-<li>Player movement.</li>
-<li>Xbox and keyboard input manager.</li>
-<li>Sprite sheet based animations.</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Player movement.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Xbox and keyboard input manager.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Sprite sheet-based animations.</span></li>
 </ul>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/AQroTOqMwWY?start=15&amp;mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div>
 
-<h5>Spritesheet based animations:</h5>
-<p>During the project, I had to develop a pipeline for importing sprite sheets into the TGA2D game engine. I came up with a solution where the artist used <a href="https://www.codeandweb.com/texturepacker">TexturePacker </a>to export the sprite sheet and a JSON file that described the coordinates of each sprite. I then created a pipeline that could read the JSON file and develop an animation system capable of switching between different animations.</p>
-<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/1/sheet_game_crop.png" alt="" width="4081" height="1351" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/1/responsive/sheet_game_crop-xs.png 384w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-sm.png 600w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-md.png 768w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-lg.png 1200w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-xl.png 1600w"></figure>
+<h5>Sprite sheet<strong>-based animations:</strong></h5>
+<p><span style="font-weight: 400;">I had to develop a pipeline for importing sprite sheets into the TGA2D game engine during the project. I came up with a solution where the artist used</span><a href="https://www.codeandweb.com/texturepacker"><span style="font-weight: 400;"> </span><span style="font-weight: 400;">TexturePacker</span></a><span style="font-weight: 400;"> </span><span style="font-weight: 400;">to export the sprite sheet image and a JSON file that described the coordinates of each sprite. I also developed an animation system capable of switching between different animations.</span></p>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/1/sheet_game_crop.png" alt="" width="4081" height="1351" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/1/responsive/sheet_game_crop-xs.png 384w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-sm.png 600w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-md.png 768w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-lg.png 1200w ,https://cazzola.click/media/posts/1/responsive/sheet_game_crop-xl.png 1600w"></figure><span style="font-weight: 400;">Here is an example of how to sprite sheet JSON file was structured:</span></p>
+<pre>{"frames": {<br>"enemy_beam_blue.png":<br>{<br>    "frame": {"x":3882,"y":414,"w":176,"h":117},<br>    "rotated": false,<br>    "trimmed": false,<br>    "spriteSourceSize": {"x":0,"y":0,"w":176,"h":117},<br>    "sourceSize": {"w":176,"h":117}<br>},<br>"enemy_beam_blue1.png":<br>{<br>    "frame": {"x":2,"y":533,"w":176,"h":117},<br>    "rotated": false,<br>    "trimmed": false,<br>    "spriteSourceSize": {"x":0,"y":0,"w":176,"h":117},<br>    "sourceSize": {"w":176,"h":117}<br>},</pre>
+<p><span style="font-weight: 400;">The biggest challenge I had was the transitions between the different animations. Some animations like the player flip were not supposed to be cancelled mid animation, so the team has to put "overrideable": false in the animation JSON file. This resulted in me having to keep track of the new animation request and only switch to a new animation at the last frame of the previous animation.</span></p>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/1/sp3_player_flip-2.gif" alt="" width="118" height="110"></figure>
+<pre>...<br>"flip_blue_to_orange":<br>        {<br>            "frames":<br>            [<br>                "player_blueToOrange1.png",<br>                "player_blueToOrange2.png",<br>                "player_blueToOrange3.png",<br>                "player_blueToOrange4.png",<br>                "player_blueToOrange5.png",<br>                "player_blueToOrange6.png",<br>                "player_blueToOrange7.png"<br>            ],<br>            "frames per second": 30,<br>            "overrideable": false<br>        },<br>...</pre>
             ]]>
         </content>
     </entry>
