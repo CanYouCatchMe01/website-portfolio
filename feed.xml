@@ -3,12 +3,26 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-03-21T14:11:30+01:00</updated>
+    <updated>2023-03-22T13:44:34+01:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
     <id>https://cazzola.click</id>
 
+    <entry>
+        <title>Spite: Curse Of Archibald</title>
+        <author>
+            <name>Marcus Cazzola</name>
+        </author>
+        <link href="https://cazzola.click/spite-curse-of-archibald.html"/>
+        <id>https://cazzola.click/spite-curse-of-archibald.html</id>
+        <media:content url="https://cazzola.click/media/posts/7/spite-medium.gif" medium="image" />
+            <category term="Group Projects"/>
+
+        <updated>2023-03-22T13:44:34+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>Beat Saber Remake</title>
         <author>
@@ -19,7 +33,7 @@
         <media:content url="https://cazzola.click/media/posts/6/beat_saber_no_top.gif" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-03-21T14:11:30+01:00</updated>
+        <updated>2023-03-22T09:48:28+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/6/beat_saber_no_top.gif" alt="Beat saber image" />
@@ -39,7 +53,7 @@
 <p><strong>Fast level creation tool:</strong></p>
 <p>In the normal Beat Saber, every cube is placed out manually by hand to make a level. This makes the level creation, of one song, take many hours.</p>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/6/beat-saber-level-normal-editor.PNG" alt="" width="253" height="142" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/6/responsive/beat-saber-level-normal-editor-xs.PNG 384w ,https://cazzola.click/media/posts/6/responsive/beat-saber-level-normal-editor-sm.PNG 600w ,https://cazzola.click/media/posts/6/responsive/beat-saber-level-normal-editor-md.PNG 768w ,https://cazzola.click/media/posts/6/responsive/beat-saber-level-normal-editor-lg.PNG 1200w ,https://cazzola.click/media/posts/6/responsive/beat-saber-level-normal-editor-xl.PNG 1600w"></figure>
-<p>I created a tool that lets the developer“ record” a song. The developer records a song by swinging his sabers and pressing the trigger button. Then the position, time, color, and sword travel direction gets stored in a file. Then the file can get played back and someone can play the level.</p>
+<p>I created a tool that lets the developer “records” a song. The developer records the song by swinging his sabers and pressing the trigger button. Then the position, time, color, and sword travel direction gets stored in a file. Then the file can get played back and someone can play the level.</p>
 <figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/V6AphRKWRGA" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <p> </p>
             ]]>
@@ -55,19 +69,24 @@
         <media:content url="https://cazzola.click/media/posts/5/AI_Bike_frame_crop-2.png" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-03-21T10:54:56+01:00</updated>
+        <updated>2023-03-22T09:48:11+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/5/AI_Bike_frame_crop-2.png" alt="" />
-                    During my time in "Gymnasiet" I was very intressted in CAD and 3D printing. I used Fusion 360’s Generative design&hellip;
+                    Details: I'm using Fusion 360 Generative Design model to create the most optimal bike frame which is both very light&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://cazzola.click/media/posts/5/AI_Bike_frame_crop-2.png" class="type:primaryImage" alt="" /></p>
-                <p>During my time in "Gymnasiet" I was very intressted in CAD and 3D printing. I used Fusion 360’s Generative design model to create this optimal bike frame which is both very light and durable.</p>
+                <p><strong style="font-family: var(--font-base); font-size: 1.125em; letter-spacing: var(--letter-spacing);">Details:</strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in the CAD program Fusion 360</span></li>
+<li style="font-weight: 400;" aria-level="1">Generative design AI model</li>
+</ul>
+<p>I'm using Fusion 360 Generative Design model to create the most optimal bike frame which is both very light and durable.</p>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/5/AI_Bike_frame-2.png" alt="" width="363" height="192" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-xs.png 384w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-sm.png 600w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-md.png 768w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-lg.png 1200w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-xl.png 1600w"></figure>
-<h6>Here is a video on how the model removes material for every generation:</h6>
+<p><span data-offset-key="cj1fa-65-0">The</span><span data-offset-key="cj1fa-66-0"> AI</span><span data-offset-key="cj1fa-67-0"> model</span><span data-offset-key="cj1fa-68-0"> works</span><span data-offset-key="cj1fa-69-0"> by</span><span data-offset-key="cj1fa-70-0"> allowing</span><span data-offset-key="cj1fa-71-0"> the</span><span data-offset-key="cj1fa-72-0"> user</span><span data-offset-key="cj1fa-73-0"> to</span><span data-offset-key="cj1fa-74-0"> create</span> <span data-offset-key="cj1fa-76-0">shapes</span><span data-offset-key="cj1fa-77-0"> that</span><span data-offset-key="cj1fa-78-0"> they</span><span data-offset-key="cj1fa-79-0"> would</span><span data-offset-key="cj1fa-80-0"> like</span><span data-offset-key="cj1fa-81-0"> to</span><span data-offset-key="cj1fa-82-0"> connect</span><span data-offset-key="cj1fa-83-0"> and</span><span data-offset-key="cj1fa-84-0"> specify</span><span data-offset-key="cj1fa-85-0"> the</span><span data-offset-key="cj1fa-86-0"> amount</span><span data-offset-key="cj1fa-87-0"> of</span><span data-offset-key="cj1fa-88-0"> force</span><span data-offset-key="cj1fa-89-0"> each</span><span data-offset-key="cj1fa-90-0"> shape</span><span data-offset-key="cj1fa-91-0"> will</span><span data-offset-key="cj1fa-92-0"> endure</span><span data-offset-key="cj1fa-93-0">.</span><span data-offset-key="cj1fa-94-0"> The</span><span data-offset-key="cj1fa-95-0"> AI</span><span data-offset-key="cj1fa-96-0"> then</span><span data-offset-key="cj1fa-97-0"> connects</span><span data-offset-key="cj1fa-98-0"> the</span><span data-offset-key="cj1fa-99-0"> shapes</span><span data-offset-key="cj1fa-100-0"> and</span><span data-offset-key="cj1fa-101-0"> intellig</span><span data-offset-key="cj1fa-102-0">ently</span><span data-offset-key="cj1fa-103-0"> removes</span><span data-offset-key="cj1fa-104-0"> material</span><span data-offset-key="cj1fa-105-0"> from</span><span data-offset-key="cj1fa-106-0"> areas</span><span data-offset-key="cj1fa-107-0"> of</span><span data-offset-key="cj1fa-108-0"> low</span><span data-offset-key="cj1fa-109-0"> stress</span><span data-offset-key="cj1fa-110-0">.</span></p>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/5/mic_timelaps.gif" alt="" width="296" height="167"></figure>
             ]]>
         </content>
