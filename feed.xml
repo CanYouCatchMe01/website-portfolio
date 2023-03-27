@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-03-27T16:57:47+02:00</updated>
+    <updated>2023-03-27T18:40:35+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://cazzola.click/media/posts/9/scaleVRsmall.gif" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-03-27T16:57:47+02:00</updated>
+        <updated>2023-03-27T18:40:35+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/9/scaleVRsmall.gif" alt="" />
@@ -35,6 +35,7 @@
 <li aria-level="1">Voice commands to create objects</li>
 <li aria-level="1">Custom interaction system to move, rotate and scale objects</li>
 <li aria-level="1">Using the game engine <a href="https://stereokit.net/Pages/Guides/Getting-Started.html" target="_blank" rel="noopener noreferrer">StereoKit </a>with C#</li>
+<li><a href="https://github.com/CanYouCatchMe01/CreateWorldWithOpenAI" target="_blank" rel="noopener noreferrer">Github link</a></li>
 </ul>
 <p>The user can create, remove and duplicate objects with voice commands<span style="font-weight: 400;">🗣️</span>. The user can also move, rotate and scale objects with his hands🖐️. This was possible because I'm using OpenAI API<span style="font-weight: 400;">🤖</span> to convert the spoken text to JSON which I can read at runtime.</p>
 <p>In this video I create a snowman⛄</p>
@@ -48,17 +49,27 @@
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/removeAndDuplicate.gif" alt="" width="486" height="273"></figure>
 <p>The user can move, rotate and scale the objects. With the scaling coordinate system the user can choose to scale the object on all or just one axis.</p>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/scaleVRsmall-2.gif" alt="" width="311" height="233"></figure>
-<p>The AI works even though one voice command is very long.</p>
+<p>The AI supports very long voice commands.</p>
 <pre>Voice command: Hey computer create 1 blue cube in my right hand 2 white sphere in my left hand 3 yellow cylinders in my right and 4 brown cubes in my left hand 5 blue cylinders in my right hand and 1 red cube in my left hand</pre>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/handleManyCommands.gif" alt="" width="345" height="194"></figure>
 <h4>How it works:</h4>
-<h5 dir="auto" tabindex="-1">Game engine</h5>
+<h5 dir="auto" tabindex="-1">Game engine </h5>
 <p dir="auto">To display the VR world I use the open-source VR game engine StereoKit. Its main programming language is C#.</p>
-<h5 dir="auto" tabindex="-1">Convert speech to text</h5>
-<p>To convert the speech that the user says I use Microsoft's Azure Cloud speech-to-text service.</p>
-<h5 dir="auto" tabindex="-1">Convert text to JSON with OpenAI</h5>
-<p>I use OpenAI API to convert the text to JSON format.</p>
-<p> </p>
+<h5 dir="auto" style="margin-top: 2.28571rem; font-family: var(--font-base); font-weight: var(--font-weight-bold); letter-spacing: var(--letter-spacing);" tabindex="-1"><figure class="post__image"><img loading="lazy"  style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;" src="https://cazzola.click/media/posts/9/StereoKitWideBackground.svg" alt="" width="224" height="65"></figure></h5>
+<h5 dir="auto" tabindex="-1">Convert speech to text </h5>
+<p>To convert the speech that the user says I use Microsoft's Azure Cloud speech-to-text service. There API works by that the user sends audio data over the internet and the API sends text back.</p>
+<h5 dir="auto" style="margin-top: 2.28571rem; font-family: var(--font-base); font-weight: var(--font-weight-bold); letter-spacing: var(--letter-spacing);" tabindex="-1"><figure class="post__image"><img loading="lazy"  style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;" src="https://cazzola.click/media/posts/9/Microsoft_logo.svg" alt="" width="92" height="92"></figure></h5>
+<h5 dir="auto" style="margin-top: 2.28571rem; font-family: var(--font-base); font-weight: var(--font-weight-bold); letter-spacing: var(--letter-spacing);" tabindex="-1">Convert text to JSON with OpenAI</h5>
+<p>Open AI's text models are great at understanding text. By first giving the model some examples of what text it is suppose to generate, it manages to see patterns and can generate responses on text it has never seen before.</p>
+<h5 dir="auto" style="margin-top: 2.28571rem; font-family: var(--font-base); font-weight: var(--font-weight-bold); letter-spacing: var(--letter-spacing);" tabindex="-1"><figure class="post__image"><img loading="lazy"  style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;" src="https://cazzola.click/media/posts/9/OpenAI_Logo.svg" alt="" width="206" height="50"></figure> </h5>
+<p>Parts of my example text that I first give the model:</p>
+<pre><strong>User:</strong> create three blue cube cubes and two white spheres on my left hand<br><strong>Assistant:</strong> {"add objects": [{"count": 3, "hand": "right", "shape": "cube", "color": {"r": 0.0, "g": 0.0, "b": 1.0}}, {"count": 2, "hand": "left", "shape": "sphere", "color": {"r": 1.0, "g": 1.0, "b": 1.0}}]}<br><strong>User:</strong> Remove the object in the right hand. Grabbing object with right hand<br><strong>Assistant:</strong> {"remove" : ["right"]}<br><strong>Support:</strong> Convert the user message to JSON. Only respond with the JSON object. Do not apologise or write any normal text</pre>
+<figure class="post__image">Here is the code for generating an response for the AI.<br><img loading="lazy"  src="https://cazzola.click/media/posts/9/generateAIResponce.png" alt="" width="365" height="171" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/9/responsive/generateAIResponce-xs.png 384w ,https://cazzola.click/media/posts/9/responsive/generateAIResponce-sm.png 600w ,https://cazzola.click/media/posts/9/responsive/generateAIResponce-md.png 768w ,https://cazzola.click/media/posts/9/responsive/generateAIResponce-lg.png 1200w ,https://cazzola.click/media/posts/9/responsive/generateAIResponce-xl.png 1600w"></figure>
+<h5 dir="auto" tabindex="-1">Interaction system to grab, rotate and scale.</h5>
+<p>The StereoKit engine does not have and inbuild parenting system so I had to calculate own matrix math to parent the object to the hand and scale it. Here is some of the grabbing code.</p>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/PtObjectSpace.png" alt="" width="458" height="60" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/9/responsive/PtObjectSpace-xs.png 384w ,https://cazzola.click/media/posts/9/responsive/PtObjectSpace-sm.png 600w ,https://cazzola.click/media/posts/9/responsive/PtObjectSpace-md.png 768w ,https://cazzola.click/media/posts/9/responsive/PtObjectSpace-lg.png 1200w ,https://cazzola.click/media/posts/9/responsive/PtObjectSpace-xl.png 1600w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/GrabObjects-2.png" alt="" width="386" height="77" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/9/responsive/GrabObjects-2-xs.png 384w ,https://cazzola.click/media/posts/9/responsive/GrabObjects-2-sm.png 600w ,https://cazzola.click/media/posts/9/responsive/GrabObjects-2-md.png 768w ,https://cazzola.click/media/posts/9/responsive/GrabObjects-2-lg.png 1200w ,https://cazzola.click/media/posts/9/responsive/GrabObjects-2-xl.png 1600w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/moveGrabedObjects.png" alt="" width="384" height="82" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/9/responsive/moveGrabedObjects-xs.png 384w ,https://cazzola.click/media/posts/9/responsive/moveGrabedObjects-sm.png 600w ,https://cazzola.click/media/posts/9/responsive/moveGrabedObjects-md.png 768w ,https://cazzola.click/media/posts/9/responsive/moveGrabedObjects-lg.png 1200w ,https://cazzola.click/media/posts/9/responsive/moveGrabedObjects-xl.png 1600w"></figure>
 <p> </p>
 <p> </p>
             ]]>
@@ -74,7 +85,7 @@
         <media:content url="https://cazzola.click/media/posts/8/one-handed-keyboard.jfif" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-03-23T13:52:15+01:00</updated>
+        <updated>2023-03-27T18:37:53+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/8/one-handed-keyboard.jfif" alt="" />
