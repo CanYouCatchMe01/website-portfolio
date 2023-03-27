@@ -3,12 +3,67 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-03-23T14:25:28+01:00</updated>
+    <updated>2023-03-27T16:57:47+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
     <id>https://cazzola.click</id>
 
+    <entry>
+        <title>VR level editor with OpenAI voice commands</title>
+        <author>
+            <name>Marcus Cazzola</name>
+        </author>
+        <link href="https://cazzola.click/vr-level-editor-with-openai-voice-commands.html"/>
+        <id>https://cazzola.click/vr-level-editor-with-openai-voice-commands.html</id>
+        <media:content url="https://cazzola.click/media/posts/9/scaleVRsmall.gif" medium="image" />
+            <category term="Personal Projects"/>
+
+        <updated>2023-03-27T16:57:47+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://cazzola.click/media/posts/9/scaleVRsmall.gif" alt="" />
+                    Details: The user can create, remove and duplicate objects with voice commands🗣️. The user can also move, rotate and scale&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cazzola.click/media/posts/9/scaleVRsmall.gif" class="type:primaryImage" alt="" /></p>
+                <p><strong style="font-family: var(--font-base); font-size: 1.125em; letter-spacing: var(--letter-spacing);">Details:</strong></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1">VR level editor</li>
+<li aria-level="1">Voice commands to create objects</li>
+<li aria-level="1">Custom interaction system to move, rotate and scale objects</li>
+<li aria-level="1">Using the game engine <a href="https://stereokit.net/Pages/Guides/Getting-Started.html" target="_blank" rel="noopener noreferrer">StereoKit </a>with C#</li>
+</ul>
+<p>The user can create, remove and duplicate objects with voice commands<span style="font-weight: 400;">🗣️</span>. The user can also move, rotate and scale objects with his hands🖐️. This was possible because I'm using OpenAI API<span style="font-weight: 400;">🤖</span> to convert the spoken text to JSON which I can read at runtime.</p>
+<p>In this video I create a snowman⛄</p>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/UThNc4y3I1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div>
+<h4>What can the editor do?</h4>
+<p>The user can create objects in the right and left hand.</p>
+<pre><code>Voice command: Hey computer, create a red cube in my right hand and two blue spheres in left hand.</code></pre>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/thumb-publii.gif" alt="" width="490" height="281"></figure>
+<p>The user can duplicate and remove objects that he is grabbing</p>
+<pre>Voice command: He computer remove the object I have in my right hand, but duplicates the one in my left hand</pre>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/removeAndDuplicate.gif" alt="" width="486" height="273"></figure>
+<p>The user can move, rotate and scale the objects. With the scaling coordinate system the user can choose to scale the object on all or just one axis.</p>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/scaleVRsmall-2.gif" alt="" width="311" height="233"></figure>
+<p>The AI works even though one voice command is very long.</p>
+<pre>Voice command: Hey computer create 1 blue cube in my right hand 2 white sphere in my left hand 3 yellow cylinders in my right and 4 brown cubes in my left hand 5 blue cylinders in my right hand and 1 red cube in my left hand</pre>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/handleManyCommands.gif" alt="" width="345" height="194"></figure>
+<h4>How it works:</h4>
+<h5 dir="auto" tabindex="-1">Game engine</h5>
+<p dir="auto">To display the VR world I use the open-source VR game engine StereoKit. Its main programming language is C#.</p>
+<h5 dir="auto" tabindex="-1">Convert speech to text</h5>
+<p>To convert the speech that the user says I use Microsoft's Azure Cloud speech-to-text service.</p>
+<h5 dir="auto" tabindex="-1">Convert text to JSON with OpenAI</h5>
+<p>I use OpenAI API to convert the text to JSON format.</p>
+<p> </p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>One handed keyboard</title>
         <author>

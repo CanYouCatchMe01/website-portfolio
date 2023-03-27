@@ -10,6 +10,22 @@
     },
     "items": [
         {
+            "id": "https://cazzola.click/vr-level-editor-with-openai-voice-commands.html",
+            "url": "https://cazzola.click/vr-level-editor-with-openai-voice-commands.html",
+            "title": "VR level editor with OpenAI voice commands",
+            "summary": "Details: The user can create, remove and duplicate objects with voice commands🗣️. The user can also move, rotate and scale&hellip;",
+            "content_html": "<p><strong style=\"font-family: var(--font-base); font-size: 1.125em; letter-spacing: var(--letter-spacing);\">Details:</strong></p>\n<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\">VR level editor</li>\n<li aria-level=\"1\">Voice commands to create objects</li>\n<li aria-level=\"1\">Custom interaction system to move, rotate and scale objects</li>\n<li aria-level=\"1\">Using the game engine <a href=\"https://stereokit.net/Pages/Guides/Getting-Started.html\" target=\"_blank\" rel=\"noopener noreferrer\">StereoKit </a>with C#</li>\n</ul>\n<p>The user can create, remove and duplicate objects with voice commands<span style=\"font-weight: 400;\">🗣️</span>. The user can also move, rotate and scale objects with his hands🖐️. This was possible because I'm using OpenAI API<span style=\"font-weight: 400;\">🤖</span> to convert the spoken text to JSON which I can read at runtime.</p>\n<p>In this video I create a snowman⛄</p>\n<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UThNc4y3I1Q\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\"></iframe></div>\n<h4>What can the editor do?</h4>\n<p>The user can create objects in the right and left hand.</p>\n<pre><code>Voice command: Hey computer, create a red cube in my right hand and two blue spheres in left hand.</code></pre>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://cazzola.click/media/posts/9/thumb-publii.gif\" alt=\"\" width=\"490\" height=\"281\"></figure>\n<p>The user can duplicate and remove objects that he is grabbing</p>\n<pre>Voice command: He computer remove the object I have in my right hand, but duplicates the one in my left hand</pre>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://cazzola.click/media/posts/9/removeAndDuplicate.gif\" alt=\"\" width=\"486\" height=\"273\"></figure>\n<p>The user can move, rotate and scale the objects. With the scaling coordinate system the user can choose to scale the object on all or just one axis.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://cazzola.click/media/posts/9/scaleVRsmall-2.gif\" alt=\"\" width=\"311\" height=\"233\"></figure>\n<p>The AI works even though one voice command is very long.</p>\n<pre>Voice command: Hey computer create 1 blue cube in my right hand 2 white sphere in my left hand 3 yellow cylinders in my right and 4 brown cubes in my left hand 5 blue cylinders in my right hand and 1 red cube in my left hand</pre>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://cazzola.click/media/posts/9/handleManyCommands.gif\" alt=\"\" width=\"345\" height=\"194\"></figure>\n<h4>How it works:</h4>\n<h5 dir=\"auto\" tabindex=\"-1\">Game engine</h5>\n<p dir=\"auto\">To display the VR world I use the open-source VR game engine StereoKit. Its main programming language is C#.</p>\n<h5 dir=\"auto\" tabindex=\"-1\">Convert speech to text</h5>\n<p>To convert the speech that the user says I use Microsoft's Azure Cloud speech-to-text service.</p>\n<h5 dir=\"auto\" tabindex=\"-1\">Convert text to JSON with OpenAI</h5>\n<p>I use OpenAI API to convert the text to JSON format.</p>\n<p> </p>\n<p> </p>\n<p> </p>",
+            "image": "https://cazzola.click/media/posts/9/scaleVRsmall.gif",
+            "author": {
+                "name": "Marcus Cazzola"
+            },
+            "tags": [
+                   "Personal Projects"
+            ],
+            "date_published": "2023-03-27T15:20:47+02:00",
+            "date_modified": "2023-03-27T16:57:47+02:00"
+        },
+        {
             "id": "https://cazzola.click/one-handed-keyboard.html",
             "url": "https://cazzola.click/one-handed-keyboard.html",
             "title": "One handed keyboard",
