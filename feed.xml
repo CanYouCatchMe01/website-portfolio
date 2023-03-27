@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-03-27T18:40:35+02:00</updated>
+    <updated>2023-03-27T19:16:55+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://cazzola.click/media/posts/9/scaleVRsmall.gif" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-03-27T18:40:35+02:00</updated>
+        <updated>2023-03-27T19:16:55+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/9/scaleVRsmall.gif" alt="" />
@@ -52,12 +52,15 @@
 <p>The AI supports very long voice commands.</p>
 <pre>Voice command: Hey computer create 1 blue cube in my right hand 2 white sphere in my left hand 3 yellow cylinders in my right and 4 brown cubes in my left hand 5 blue cylinders in my right hand and 1 red cube in my left hand</pre>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/handleManyCommands.gif" alt="" width="345" height="194"></figure>
+<p>The AI has an understanding of when the user says something that does not make sense.</p>
+<pre>Voice command: Hey computer, I like melons</pre>
+<pre>AI response: I'm glad to hear that, but is there anything I can assist you with regarding creating or manipulating virtual objects?</pre>
 <h4>How it works:</h4>
 <h5 dir="auto" tabindex="-1">Game engine </h5>
 <p dir="auto">To display the VR world I use the open-source VR game engine StereoKit. Its main programming language is C#.</p>
 <h5 dir="auto" style="margin-top: 2.28571rem; font-family: var(--font-base); font-weight: var(--font-weight-bold); letter-spacing: var(--letter-spacing);" tabindex="-1"><figure class="post__image"><img loading="lazy"  style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;" src="https://cazzola.click/media/posts/9/StereoKitWideBackground.svg" alt="" width="224" height="65"></figure></h5>
 <h5 dir="auto" tabindex="-1">Convert speech to text </h5>
-<p>To convert the speech that the user says I use Microsoft's Azure Cloud speech-to-text service. There API works by that the user sends audio data over the internet and the API sends text back.</p>
+<p>To convert the speech that the user says I use Microsoft's Azure Cloud speech-to-text service. Their API works by that the user sends audio data over the internet and the API sends text back.</p>
 <h5 dir="auto" style="margin-top: 2.28571rem; font-family: var(--font-base); font-weight: var(--font-weight-bold); letter-spacing: var(--letter-spacing);" tabindex="-1"><figure class="post__image"><img loading="lazy"  style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;" src="https://cazzola.click/media/posts/9/Microsoft_logo.svg" alt="" width="92" height="92"></figure></h5>
 <h5 dir="auto" style="margin-top: 2.28571rem; font-family: var(--font-base); font-weight: var(--font-weight-bold); letter-spacing: var(--letter-spacing);" tabindex="-1">Convert text to JSON with OpenAI</h5>
 <p>Open AI's text models are great at understanding text. By first giving the model some examples of what text it is suppose to generate, it manages to see patterns and can generate responses on text it has never seen before.</p>
