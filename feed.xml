@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-03-27T19:16:55+02:00</updated>
+    <updated>2023-03-29T10:01:03+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -19,11 +19,11 @@
         <media:content url="https://cazzola.click/media/posts/9/scaleVRsmall.gif" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-03-27T19:16:55+02:00</updated>
+        <updated>2023-03-29T10:01:03+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/9/scaleVRsmall.gif" alt="" />
-                    Details: The user can create, remove and duplicate objects with voice commands🗣️. The user can also move, rotate and scale&hellip;
+                    Details: The user can use voice commands🗣️ to create, remove, and duplicate objects, and use their hands🖐️ to move, rotate,&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -37,14 +37,14 @@
 <li aria-level="1">Using the game engine <a href="https://stereokit.net/Pages/Guides/Getting-Started.html" target="_blank" rel="noopener noreferrer">StereoKit </a>with C#</li>
 <li><a href="https://github.com/CanYouCatchMe01/CreateWorldWithOpenAI" target="_blank" rel="noopener noreferrer">Github link</a></li>
 </ul>
-<p>The user can create, remove and duplicate objects with voice commands<span style="font-weight: 400;">🗣️</span>. The user can also move, rotate and scale objects with his hands🖐️. This was possible because I'm using OpenAI API<span style="font-weight: 400;">🤖</span> to convert the spoken text to JSON which I can read at runtime.</p>
+<p><span data-offset-key="5mmc5-68-0">The</span><span data-offset-key="5mmc5-69-0"> user</span><span data-offset-key="5mmc5-70-0"> can</span><span data-offset-key="5mmc5-71-0"> use</span><span data-offset-key="5mmc5-72-0"> voice</span><span data-offset-key="5mmc5-73-0"> commands</span><span data-offset-key="5mmc5-74-0">🗣</span><span data-offset-key="5mmc5-75-0">️</span><span data-offset-key="5mmc5-76-0"> to</span><span data-offset-key="5mmc5-77-0"> create</span><span data-offset-key="5mmc5-78-0">,</span><span data-offset-key="5mmc5-79-0"> remove</span><span data-offset-key="5mmc5-80-0">,</span><span data-offset-key="5mmc5-81-0"> and</span><span data-offset-key="5mmc5-82-0"> duplicate</span><span data-offset-key="5mmc5-83-0"> objects</span><span data-offset-key="5mmc5-84-0">,</span><span data-offset-key="5mmc5-85-0"> and</span><span data-offset-key="5mmc5-86-0"> use</span><span data-offset-key="5mmc5-87-0"> their</span><span data-offset-key="5mmc5-88-0"> hands</span><span data-offset-key="5mmc5-89-0">🖐</span><span data-offset-key="5mmc5-90-0">️</span><span data-offset-key="5mmc5-91-0"> to</span><span data-offset-key="5mmc5-92-0"> move</span><span data-offset-key="5mmc5-93-0">,</span><span data-offset-key="5mmc5-94-0"> rotate</span><span data-offset-key="5mmc5-95-0">,</span><span data-offset-key="5mmc5-96-0"> and</span><span data-offset-key="5mmc5-97-0"> scale</span><span data-offset-key="5mmc5-98-0"> objects</span><span data-offset-key="5mmc5-99-0">.</span><span data-offset-key="5mmc5-100-0"> This</span><span data-offset-key="5mmc5-101-0"> is</span><span data-offset-key="5mmc5-102-0"> made</span><span data-offset-key="5mmc5-103-0"> possible</span><span data-offset-key="5mmc5-104-0"> by</span><span data-offset-key="5mmc5-105-0"> the</span><span data-offset-key="5mmc5-106-0"> Open</span><span data-offset-key="5mmc5-107-0">AI</span><span data-offset-key="5mmc5-108-0"> API</span><span data-offset-key="5mmc5-109-0">🤖</span><span data-offset-key="5mmc5-110-0">,</span><span data-offset-key="5mmc5-111-0"> which</span><span data-offset-key="5mmc5-112-0"> allows</span><span data-offset-key="5mmc5-113-0"> me</span><span data-offset-key="5mmc5-114-0"> to</span><span data-offset-key="5mmc5-115-0"> convert</span><span data-offset-key="5mmc5-116-0"> spoken</span><span data-offset-key="5mmc5-117-0"> text</span><span data-offset-key="5mmc5-118-0"> to</span><span data-offset-key="5mmc5-119-0"> JSON</span><span data-offset-key="5mmc5-120-0"> and</span><span data-offset-key="5mmc5-121-0"> read</span><span data-offset-key="5mmc5-122-0"> it</span><span data-offset-key="5mmc5-123-0"> at</span><span data-offset-key="5mmc5-124-0"> runtime</span><span data-offset-key="5mmc5-125-0">.</span></p>
 <p>In this video I create a snowman⛄</p>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/UThNc4y3I1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div>
 <h4>What can the editor do?</h4>
 <p>The user can create objects in the right and left hand.</p>
 <pre><code>Voice command: Hey computer, create a red cube in my right hand and two blue spheres in left hand.</code></pre>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/thumb-publii.gif" alt="" width="490" height="281"></figure>
-<p>The user can duplicate and remove objects that he is grabbing</p>
+<p>The user can duplicate and remove objects that he is grabbing.</p>
 <pre>Voice command: He computer remove the object I have in my right hand, but duplicates the one in my left hand</pre>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/removeAndDuplicate.gif" alt="" width="486" height="273"></figure>
 <p>The user can move, rotate and scale the objects. With the scaling coordinate system the user can choose to scale the object on all or just one axis.</p>
@@ -73,7 +73,11 @@
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/PtObjectSpace.png" alt="" width="458" height="60" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/9/responsive/PtObjectSpace-xs.png 384w ,https://cazzola.click/media/posts/9/responsive/PtObjectSpace-sm.png 600w ,https://cazzola.click/media/posts/9/responsive/PtObjectSpace-md.png 768w ,https://cazzola.click/media/posts/9/responsive/PtObjectSpace-lg.png 1200w ,https://cazzola.click/media/posts/9/responsive/PtObjectSpace-xl.png 1600w"></figure>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/GrabObjects-2.png" alt="" width="386" height="77" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/9/responsive/GrabObjects-2-xs.png 384w ,https://cazzola.click/media/posts/9/responsive/GrabObjects-2-sm.png 600w ,https://cazzola.click/media/posts/9/responsive/GrabObjects-2-md.png 768w ,https://cazzola.click/media/posts/9/responsive/GrabObjects-2-lg.png 1200w ,https://cazzola.click/media/posts/9/responsive/GrabObjects-2-xl.png 1600w"></figure>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/moveGrabedObjects.png" alt="" width="384" height="82" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/9/responsive/moveGrabedObjects-xs.png 384w ,https://cazzola.click/media/posts/9/responsive/moveGrabedObjects-sm.png 600w ,https://cazzola.click/media/posts/9/responsive/moveGrabedObjects-md.png 768w ,https://cazzola.click/media/posts/9/responsive/moveGrabedObjects-lg.png 1200w ,https://cazzola.click/media/posts/9/responsive/moveGrabedObjects-xl.png 1600w"></figure>
-<p> </p>
+<h4>Graphic artist user test</h4>
+<p>The graphic artist Markus Molid used my level editor to create a tree. During user testing, I identified several bugs and received valuable feedback on how to improve the user experience. For instance, Markus was very kind to the AI, resulting in a response of both text and JSON. At the time, my editor only supported AI responses in full JSON format.</p>
+<pre>Voice command: Hey, computer can you create 5 Peach colored spheres?</pre>
+<pre>AI response: Sure, here's the command to create 5 peach-colored spheres:<br>{"add objects":[{"count":5, "shape": "sphere", "color":{"r:" 1.0, "g": 0.8, "b":0.6}}]}</pre>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/MarcusTree.gif" alt="" width="502" height="414"></figure>
 <p> </p>
             ]]>
         </content>
