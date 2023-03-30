@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-03-29T13:50:33+02:00</updated>
+    <updated>2023-03-30T09:39:47+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://cazzola.click/media/posts/9/scaleVRsmall.gif" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-03-29T11:28:02+02:00</updated>
+        <updated>2023-03-30T09:39:47+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/9/scaleVRsmall.gif" alt="" />
@@ -41,17 +41,41 @@
 <p>In this video I create a snowman⛄</p>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/UThNc4y3I1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div>
 <h4>What can the editor do?</h4>
+<div class="row">
+<div class="column">
 <p>The user can create objects in the right and left hand.</p>
 <pre><code>Voice command: Hey computer, create a red cube in my right hand and two blue spheres in left hand.</code></pre>
+</div>
+<div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/thumb-publii.gif" alt="" width="490" height="281"></figure>
+</div>
+</div>
+<div class="row">
+<div class="column">
 <p>The user can duplicate and remove objects that he is grabbing.</p>
 <pre>Voice command: He computer remove the object I have in my right hand, but duplicates the one in my left hand</pre>
+</div>
+<div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/removeAndDuplicate.gif" alt="" width="486" height="273"></figure>
+</div>
+</div>
+<div class="row">
+<div class="column">
 <p>The user can move, rotate and scale the objects. With the scaling coordinate system the user can choose to scale the object on all or just one axis.</p>
+</div>
+<div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/scaleVRsmall-2.gif" alt="" width="311" height="233"></figure>
+</div>
+</div>
+<div class="row">
+<div class="column">
 <p>The AI supports very long voice commands.</p>
 <pre>Voice command: Hey computer create 1 blue cube in my right hand 2 white sphere in my left hand 3 yellow cylinders in my right and 4 brown cubes in my left hand 5 blue cylinders in my right hand and 1 red cube in my left hand</pre>
-<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/handleManyCommands.gif" alt="" width="345" height="194"></figure>
+</div>
+<div class="column">
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/9/handleManyCommands.gif" alt="" width="418" height="235"></figure>
+</div>
+</div>
 <p>The AI has an understanding of when the user says something that does not make sense.</p>
 <pre>Voice command: Hey computer, I like melons</pre>
 <pre>AI response: I'm glad to hear that, but is there anything I can assist you with regarding creating or manipulating virtual objects?</pre>
