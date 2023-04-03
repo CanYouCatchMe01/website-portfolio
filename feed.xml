@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-04-03T17:16:46+02:00</updated>
+    <updated>2023-04-03T17:56:10+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://cazzola.click/media/posts/10/StayAndSlayThumb.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-04-03T17:00:42+02:00</updated>
+        <updated>2023-04-03T17:56:10+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/10/StayAndSlayThumb.gif" alt="" />
@@ -46,7 +46,7 @@
 <li>Multiple materials per model export support.</li>
 <li style="font-weight: 400;" aria-level="1">In game cubemap capture.</li>
 <li aria-level="1">Occlusion culling performance optimisation.</li>
-<li aria-level="1">Rendering gun and hands infront of everything.</li>
+<li aria-level="1">Rendering gun and hands in front of everything.</li>
 <li aria-level="1">HUD UI elements.</li>
 </ul>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/bNVIAEfY9PI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
@@ -64,8 +64,26 @@
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/10/collider-local-pose.png" alt="" width="1943" height="1140" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/10/responsive/collider-local-pose-xs.png 384w ,https://cazzola.click/media/posts/10/responsive/collider-local-pose-sm.png 600w ,https://cazzola.click/media/posts/10/responsive/collider-local-pose-md.png 768w ,https://cazzola.click/media/posts/10/responsive/collider-local-pose-lg.png 1200w ,https://cazzola.click/media/posts/10/responsive/collider-local-pose-xl.png 1600w"></figure>
 <p>This is an image of the code that calculated the collider local position.</p>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/10/collider-export-code.PNG" alt="" width="647" height="373" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/10/responsive/collider-export-code-xs.PNG 384w ,https://cazzola.click/media/posts/10/responsive/collider-export-code-sm.PNG 600w ,https://cazzola.click/media/posts/10/responsive/collider-export-code-md.PNG 768w ,https://cazzola.click/media/posts/10/responsive/collider-export-code-lg.PNG 1200w ,https://cazzola.click/media/posts/10/responsive/collider-export-code-xl.PNG 1600w"></figure>
-<h5>Build system with MSBuild:</h5>
-<p>One problem that specially the programmers had in our previous project was that we had to version controller the games .exe and the compiled shader files. The reason why we version controlled those files was that the 3D artist did not have Visual Studio 2022 installed. One solution could have been that the 3D artists just insalled Visual Studio, b </p>
+<h5>Rendering gun and hands in front of everything</h5>
+<p>In first person games there is the problem that the gun gets clipped into the wall. To solve this problem...</p>
+<div class="row">
+<div class="column">
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/10/no_late_render.gif" alt="" width="439" height="247"></figure>
+</div>
+<div class="column">
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/10/with_late_render.gif" alt="" width="439" height="247"></figure>
+</div>
+</div>
+<p>Render the gun first as normal. Then depth only pass to make so nothing else can write to the depth buffer.</p>
+<div class="row">
+<div class="column">
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/10/depthFirstPass-2.gif" alt="" width="440" height="248"></figure>
+</div>
+<div class="column">
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/10/depthSecondPass.gif" alt="" width="438" height="246"></figure>
+</div>
+</div>
+<p> </p>
             ]]>
         </content>
     </entry>
