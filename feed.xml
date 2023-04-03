@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-04-03T17:06:17+02:00</updated>
+    <updated>2023-04-03T17:16:46+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -216,7 +216,7 @@
         <media:content url="https://cazzola.click/media/posts/7/spite-medium.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-04-03T17:00:21+02:00</updated>
+        <updated>2023-04-03T17:16:46+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/7/spite-medium.gif" alt="" />
@@ -278,7 +278,7 @@
 <p>To get the water more realistic where it meet the rock I calculated the depth between the water pixel and the depth buffer. The closer the distance was the more transparent the water and light blue the water gets.</p>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/water-depth-fade.png" alt="" width="661" height="307" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/7/responsive/water-depth-fade-xs.png 384w ,https://cazzola.click/media/posts/7/responsive/water-depth-fade-sm.png 600w ,https://cazzola.click/media/posts/7/responsive/water-depth-fade-md.png 768w ,https://cazzola.click/media/posts/7/responsive/water-depth-fade-lg.png 1200w ,https://cazzola.click/media/posts/7/responsive/water-depth-fade-xl.png 1600w"></figure>
 <p>The outline shader was created by having a second larger model of the enemy with inverted normals so the inside of the model only was visible.</p>
-<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/animated_outline_enemys.gif" alt="" width="514" height="384"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/animated_outline_enemy_smaller.gif" alt="" width="559" height="418"></figure>
             ]]>
         </content>
     </entry>
