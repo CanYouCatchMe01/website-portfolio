@@ -3,12 +3,56 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-03-30T10:01:01+02:00</updated>
+    <updated>2023-04-03T14:04:26+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
     <id>https://cazzola.click</id>
 
+    <entry>
+        <title>Stay And Slay</title>
+        <author>
+            <name>Marcus Cazzola</name>
+        </author>
+        <link href="https://cazzola.click/stay-and-slay.html"/>
+        <id>https://cazzola.click/stay-and-slay.html</id>
+        <media:content url="https://cazzola.click/media/posts/10/StayAndSlayThumb.gif" medium="image" />
+            <category term="Group Projects"/>
+
+        <updated>2023-04-03T14:03:22+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://cazzola.click/media/posts/10/StayAndSlayThumb.gif" alt="" />
+                    Details: A 3D game inspired by Anger Foot. 15-week development (20h/week) with a team of 5 programmers, 2 level designers&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://cazzola.click/media/posts/10/StayAndSlayThumb.gif" class="type:primaryImage" alt="" /></p>
+                <h5>Details:</h5>
+<h6></h6>
+<h6></h6>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A 3D game inspired by Anger Foot.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">15-week development (20h/week) with a team of 5 programmers, 2 level designers and 5 3D artists.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Game is made in our own game engine made from a base of the schools in-house game engine.</span></li>
+<li aria-level="1">Unity is used as a level editor.</li>
+</ul>
+<h5><strong>My contributions:</strong></h5>
+<ul>
+<li aria-level="1">PhysX implementation in our own engine.</li>
+<li>Scene and scene stack pipeline.</li>
+<li>Build system with MSBuild.</li>
+<li>Multiple materials per model export support.</li>
+<li style="font-weight: 400;" aria-level="1">In game cubemap capture.</li>
+<li aria-level="1">Occlusion culling performance optimisation.</li>
+<li aria-level="1">Rendering gun and hands infront of everything.</li>
+<li aria-level="1">HUD UI elements.</li>
+</ul>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/bNVIAEfY9PI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>VR level editor with OpenAI voice commands</title>
         <author>
@@ -19,7 +63,7 @@
         <media:content url="https://cazzola.click/media/posts/9/scaleVRsmall.gif" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-03-30T09:39:47+02:00</updated>
+        <updated>2023-04-03T10:09:04+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/9/scaleVRsmall.gif" alt="" />
@@ -31,11 +75,11 @@
                     <p><img src="https://cazzola.click/media/posts/9/scaleVRsmall.gif" class="type:primaryImage" alt="" /></p>
                 <p><strong style="font-family: var(--font-base); font-size: 1.125em; letter-spacing: var(--letter-spacing);">Details:</strong></p>
 <ul>
-<li style="font-weight: 400;" aria-level="1">VR level editor</li>
-<li aria-level="1">Voice commands to create objects</li>
-<li aria-level="1">Custom interaction system to move, rotate and scale objects</li>
-<li aria-level="1">Using the game engine <a href="https://stereokit.net/Pages/Guides/Getting-Started.html" target="_blank" rel="noopener noreferrer">StereoKit </a>with C#</li>
-<li><a href="https://github.com/CanYouCatchMe01/CreateWorldWithOpenAI" target="_blank" rel="noopener noreferrer">Github link</a></li>
+<li style="font-weight: 400;" aria-level="1">VR level editor.</li>
+<li aria-level="1">Voice commands to create objects.</li>
+<li aria-level="1">Custom interaction system to move, rotate and scale objects.</li>
+<li aria-level="1">Using the game engine <a href="https://stereokit.net/Pages/Guides/Getting-Started.html" target="_blank" rel="noopener noreferrer">StereoKit </a>with C#.</li>
+<li><a href="https://github.com/CanYouCatchMe01/CreateWorldWithOpenAI/tree/new_OpenAI_model" target="_blank" rel="noopener noreferrer">Github link.</a></li>
 </ul>
 <p><span data-offset-key="5mmc5-68-0">The</span><span data-offset-key="5mmc5-69-0"> user</span><span data-offset-key="5mmc5-70-0"> can</span><span data-offset-key="5mmc5-71-0"> use</span><span data-offset-key="5mmc5-72-0"> voice</span><span data-offset-key="5mmc5-73-0"> commands</span><span data-offset-key="5mmc5-74-0">🗣</span><span data-offset-key="5mmc5-75-0">️</span><span data-offset-key="5mmc5-76-0"> to</span><span data-offset-key="5mmc5-77-0"> create</span><span data-offset-key="5mmc5-78-0">,</span><span data-offset-key="5mmc5-79-0"> remove</span><span data-offset-key="5mmc5-80-0">,</span><span data-offset-key="5mmc5-81-0"> and</span><span data-offset-key="5mmc5-82-0"> duplicate</span><span data-offset-key="5mmc5-83-0"> objects</span><span data-offset-key="5mmc5-84-0">,</span><span data-offset-key="5mmc5-85-0"> and</span><span data-offset-key="5mmc5-86-0"> use</span><span data-offset-key="5mmc5-87-0"> their</span><span data-offset-key="5mmc5-88-0"> hands</span><span data-offset-key="5mmc5-89-0">🖐</span><span data-offset-key="5mmc5-90-0">️</span><span data-offset-key="5mmc5-91-0"> to</span><span data-offset-key="5mmc5-92-0"> move</span><span data-offset-key="5mmc5-93-0">,</span><span data-offset-key="5mmc5-94-0"> rotate</span><span data-offset-key="5mmc5-95-0">,</span><span data-offset-key="5mmc5-96-0"> and</span><span data-offset-key="5mmc5-97-0"> scale</span><span data-offset-key="5mmc5-98-0"> objects</span><span data-offset-key="5mmc5-99-0">.</span><span data-offset-key="5mmc5-100-0"> This</span><span data-offset-key="5mmc5-101-0"> is</span><span data-offset-key="5mmc5-102-0"> made</span><span data-offset-key="5mmc5-103-0"> possible</span><span data-offset-key="5mmc5-104-0"> by</span><span data-offset-key="5mmc5-105-0"> the</span><span data-offset-key="5mmc5-106-0"> Open</span><span data-offset-key="5mmc5-107-0">AI</span><span data-offset-key="5mmc5-108-0"> API</span><span data-offset-key="5mmc5-109-0">🤖</span><span data-offset-key="5mmc5-110-0">,</span><span data-offset-key="5mmc5-111-0"> which</span><span data-offset-key="5mmc5-112-0"> allows</span><span data-offset-key="5mmc5-113-0"> me</span><span data-offset-key="5mmc5-114-0"> to</span><span data-offset-key="5mmc5-115-0"> convert</span><span data-offset-key="5mmc5-116-0"> spoken</span><span data-offset-key="5mmc5-117-0"> text</span><span data-offset-key="5mmc5-118-0"> to</span><span data-offset-key="5mmc5-119-0"> JSON</span><span data-offset-key="5mmc5-120-0"> and</span><span data-offset-key="5mmc5-121-0"> read</span><span data-offset-key="5mmc5-122-0"> it</span><span data-offset-key="5mmc5-123-0"> at</span><span data-offset-key="5mmc5-124-0"> runtime</span><span data-offset-key="5mmc5-125-0">.</span></p>
 <p>In this video I create a snowman⛄</p>
@@ -116,7 +160,7 @@
         <media:content url="https://cazzola.click/media/posts/8/one-handed-keyboard.jfif" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-03-27T18:37:53+02:00</updated>
+        <updated>2023-04-03T10:03:58+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/8/one-handed-keyboard.jfif" alt="" />
@@ -153,7 +197,7 @@
         <media:content url="https://cazzola.click/media/posts/7/spite-medium.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-03-30T09:51:23+02:00</updated>
+        <updated>2023-04-03T10:03:50+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/7/spite-medium.gif" alt="" />
@@ -161,18 +205,18 @@
 <h6></h6>
 <h6></h6>
 <ul>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A 3D game insprited by Diablo 3</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">14-week development (20h/week) with a team of 5 programmers, 3 level designers and 5 artists. Game project 6 at The Game Assembly.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Game is running in a modified version of TGE, the school's in-house C++ game engine.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A 3D game inspired by Diablo 3.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">14-week development (20h/week) with a team of 5 programmers, 3 level designers and 5 3D artists.</span></li>
+<li><span style="font-weight: 400;">Game is made in our own game engine made from a base of the schools in-house game engine.</span></li>
 <li aria-level="1">Unity is used as a level editor.</li>
 </ul>
 <h5><strong>My contributions:</strong></h5>
 <ul>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unity JSON scene exporter</span></li>
-<li style="font-weight: 400;" aria-level="1">UI pipeline</li>
-<li aria-level="1">Water and enemy outline shader</li>
-<li aria-level="1">Thread loading of models during splash screen</li>
-<li aria-level="1">Buggfixing native TGE graphics</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unity JSON scene exporter.</span></li>
+<li style="font-weight: 400;" aria-level="1">UI pipeline.</li>
+<li aria-level="1">Water and enemy outline shader.</li>
+<li aria-level="1">Thread loading of models during splash screen.</li>
+<li aria-level="1">Buggfixing native TGE graphics.</li>
 </ul>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/UBEzi4jp60Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -185,18 +229,18 @@
 <h6></h6>
 <h6></h6>
 <ul>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A 3D game insprited by Diablo 3</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">14-week development (20h/week) with a team of 5 programmers, 3 level designers and 5 artists. Game project 6 at The Game Assembly.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Game is running in a modified version of TGE, the school's in-house C++ game engine.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A 3D game inspired by Diablo 3.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">14-week development (20h/week) with a team of 5 programmers, 3 level designers and 5 3D artists.</span></li>
+<li><span style="font-weight: 400;">Game is made in our own game engine made from a base of the schools in-house game engine.</span></li>
 <li aria-level="1">Unity is used as a level editor.</li>
 </ul>
 <h5><strong>My contributions:</strong></h5>
 <ul>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unity JSON scene exporter</span></li>
-<li style="font-weight: 400;" aria-level="1">UI pipeline</li>
-<li aria-level="1">Water and enemy outline shader</li>
-<li aria-level="1">Thread loading of models during splash screen</li>
-<li aria-level="1">Buggfixing native TGE graphics</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Unity JSON scene exporter.</span></li>
+<li style="font-weight: 400;" aria-level="1">UI pipeline.</li>
+<li aria-level="1">Water and enemy outline shader.</li>
+<li aria-level="1">Thread loading of models during splash screen.</li>
+<li aria-level="1">Buggfixing native TGE graphics.</li>
 </ul>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/UBEzi4jp60Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div>
 
@@ -229,7 +273,7 @@
         <media:content url="https://cazzola.click/media/posts/6/beat_saber_no_top.gif" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-03-30T10:01:01+02:00</updated>
+        <updated>2023-04-03T10:03:19+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/6/beat_saber_no_top.gif" alt="Beat saber image" />
@@ -265,7 +309,7 @@
         <media:content url="https://cazzola.click/media/posts/5/AI_Bike_frame_crop-2.png" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-03-22T09:48:11+01:00</updated>
+        <updated>2023-04-03T10:03:03+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/5/AI_Bike_frame_crop-2.png" alt="" />
@@ -277,8 +321,8 @@
                     <p><img src="https://cazzola.click/media/posts/5/AI_Bike_frame_crop-2.png" class="type:primaryImage" alt="" /></p>
                 <p><strong style="font-family: var(--font-base); font-size: 1.125em; letter-spacing: var(--letter-spacing);">Details:</strong></p>
 <ul>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in the CAD program Fusion 360</span></li>
-<li style="font-weight: 400;" aria-level="1">Generative design AI model</li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in the CAD program Fusion 360.</span></li>
+<li style="font-weight: 400;" aria-level="1">Generative design AI model.</li>
 </ul>
 <p>I'm using Fusion 360 Generative Design model to create the most optimal bike frame which is both very light and durable.</p>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/5/AI_Bike_frame-2.png" alt="" width="363" height="192" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-xs.png 384w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-sm.png 600w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-md.png 768w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-lg.png 1200w ,https://cazzola.click/media/posts/5/responsive/AI_Bike_frame-2-xl.png 1600w"></figure>
@@ -296,7 +340,7 @@
         <id>https://cazzola.click/about-me.html</id>
             <category term="About Me"/>
 
-        <updated>2023-03-30T09:46:26+02:00</updated>
+        <updated>2023-04-03T10:02:53+02:00</updated>
             <summary>
                 <![CDATA[
                     Contact +46 70 148 0959 marcus.cazzola@gmail.com LinkedIn Youtube CV Hi, I'm Marcus Cazzola. I'm a programmer always liking to have&hellip;
@@ -331,7 +375,7 @@
         <media:content url="https://cazzola.click/media/posts/3/geomery_small.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-03-21T14:02:53+01:00</updated>
+        <updated>2023-04-03T14:04:26+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/3/geomery_small.gif" alt="" />
@@ -344,8 +388,8 @@
 </ul>
 <h5><strong>My contributions:</strong></h5>
 <ul>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The player movement</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Outline shader on the cubes</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The player movement.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Outline shader on the cubes.</span></li>
 </ul>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/sSO_F7Sg_H8?start=10&amp;mute=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
 
@@ -363,8 +407,8 @@
 </ul>
 <h5><strong>My contributions:</strong></h5>
 <ul>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The player movement</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Outline shader on the cubes</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The player movement.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Outline shader on the cubes.</span></li>
 </ul>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/sSO_F7Sg_H8?start=10&amp;mute=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
 
@@ -386,15 +430,15 @@
         <media:content url="https://cazzola.click/media/posts/2/telos_medium.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-03-21T14:04:17+01:00</updated>
+        <updated>2023-04-03T10:01:41+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/2/telos_medium.gif" alt="" />
                     <h5><strong>Details:</strong></h5>
 <ul>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A 3D platforming game.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">8-week development (20h/week) with a team of 5 programmers, 4 level designers and 5 artists. Game project 4 at The Game Assembly.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in TGE, the school's in-house C++ game engine.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">8-week development (20h/week) with a team of 5 programmers, 4 level designers and 5 3D artists.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in the school's in-house C++ game engine.</span></li>
 </ul>
 <h5><strong>My contributions:</strong></h5>
 <ul>
@@ -411,8 +455,8 @@
                 <h5><strong>Details:</strong></h5>
 <ul>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A 3D platforming game.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">8-week development (20h/week) with a team of 5 programmers, 4 level designers and 5 artists. Game project 4 at The Game Assembly.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in TGE, the school's in-house C++ game engine.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">8-week development (20h/week) with a team of 5 programmers, 4 level designers and 5 3D artists.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in the school's in-house C++ game engine.</span></li>
 </ul>
 <h5><strong>My contributions:</strong></h5>
 <ul>
@@ -438,7 +482,7 @@
         <media:content url="https://cazzola.click/media/posts/1/sp3.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-03-21T14:03:20+01:00</updated>
+        <updated>2023-04-03T10:01:37+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/1/sp3.gif" alt="" />
@@ -447,8 +491,8 @@
 <h6></h6>
 <ul>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A 2D game inspired by Ikaruga.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">8-week development (20h/week) with a team of 5 programmers, 3 level designers and 4 artists. Game project 3 at The Game Assembly.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in TGA2D, the school's in-house C++ game engine.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">8-week development (20h/week) with a team of 5 programmers, 3 level designers and 4 3D artists. Game project 3 at The Game Assembly.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in the school's in-house C++ game engine.</span></li>
 </ul>
 <h5><strong>My contributions:</strong></h5>
 <ul>
@@ -468,8 +512,8 @@
 <h6></h6>
 <ul>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A 2D game inspired by Ikaruga.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">8-week development (20h/week) with a team of 5 programmers, 3 level designers and 4 artists. Game project 3 at The Game Assembly.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in TGA2D, the school's in-house C++ game engine.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">8-week development (20h/week) with a team of 5 programmers, 3 level designers and 4 3D artists. Game project 3 at The Game Assembly.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Made in the school's in-house C++ game engine.</span></li>
 </ul>
 <h5><strong>My contributions:</strong></h5>
 <ul>
