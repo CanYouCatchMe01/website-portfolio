@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-04-05T10:10:34+02:00</updated>
+    <updated>2023-04-05T10:28:19+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -235,13 +235,13 @@
         </author>
         <link href="https://cazzola.click/spite-curse-of-archibald.html"/>
         <id>https://cazzola.click/spite-curse-of-archibald.html</id>
-        <media:content url="https://cazzola.click/media/posts/7/spite-medium.gif" medium="image" />
+        <media:content url="https://cazzola.click/media/posts/7/spite_smaller.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-04-05T10:08:32+02:00</updated>
+        <updated>2023-04-05T10:28:19+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://cazzola.click/media/posts/7/spite-medium.gif" alt="" />
+                        <img src="https://cazzola.click/media/posts/7/spite_smaller.gif" alt="" />
                     <h5>Details:</h5>
 <h6></h6>
 <h6></h6>
@@ -265,7 +265,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://cazzola.click/media/posts/7/spite-medium.gif" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cazzola.click/media/posts/7/spite_smaller.gif" class="type:primaryImage" alt="" /></p>
                 <h5>Details:</h5>
 <h6></h6>
 <h6></h6>
@@ -286,21 +286,63 @@
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/UBEzi4jp60Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div>
 
 <h5>Unity JSON scene exporter</h5>
+<div class="row">
+<div class="column">
 <p>During the project we used Unity as a level editor where the level designers placed out the models in the scene. The Unity scene gets converted into JSON data and all models gets exported to the our own engine's directory.</p>
+</div>
+<div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/sp6-unity-export-button.PNG" alt="" width="555" height="365" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/7/responsive/sp6-unity-export-button-xs.PNG 384w ,https://cazzola.click/media/posts/7/responsive/sp6-unity-export-button-sm.PNG 600w ,https://cazzola.click/media/posts/7/responsive/sp6-unity-export-button-md.PNG 768w ,https://cazzola.click/media/posts/7/responsive/sp6-unity-export-button-lg.PNG 1200w ,https://cazzola.click/media/posts/7/responsive/sp6-unity-export-button-xl.PNG 1600w"></figure>
+</div>
+</div>
+<div class="row">
+<div class="column">
 <p>The JSON exporter works by recursively looping trough all the GameObjects and their children and there components.</p>
+</div>
+<div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/looping-gameobjects-unity.PNG" alt="" width="556" height="130" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/7/responsive/looping-gameobjects-unity-xs.PNG 384w ,https://cazzola.click/media/posts/7/responsive/looping-gameobjects-unity-sm.PNG 600w ,https://cazzola.click/media/posts/7/responsive/looping-gameobjects-unity-md.PNG 768w ,https://cazzola.click/media/posts/7/responsive/looping-gameobjects-unity-lg.PNG 1200w ,https://cazzola.click/media/posts/7/responsive/looping-gameobjects-unity-xl.PNG 1600w"></figure>
+</div>
+</div>
+<div class="row">
+<div class="column">
 <p>The programmers was also able to add a component called "ClassContainer" where they could add there own variables they wanted to export to the JSON file.</p>
+</div>
+<div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/class-container.PNG" alt="" width="569" height="576" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/7/responsive/class-container-xs.PNG 384w ,https://cazzola.click/media/posts/7/responsive/class-container-sm.PNG 600w ,https://cazzola.click/media/posts/7/responsive/class-container-md.PNG 768w ,https://cazzola.click/media/posts/7/responsive/class-container-lg.PNG 1200w ,https://cazzola.click/media/posts/7/responsive/class-container-xl.PNG 1600w"></figure>
+</div>
+</div>
+<div class="row">
+<div class="column">
 <p>In our engine we load in the values from the JSON file and create a component.</p>
+</div>
+<div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/load-enemy-tge.PNG" alt="" width="648" height="252" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/7/responsive/load-enemy-tge-xs.PNG 384w ,https://cazzola.click/media/posts/7/responsive/load-enemy-tge-sm.PNG 600w ,https://cazzola.click/media/posts/7/responsive/load-enemy-tge-md.PNG 768w ,https://cazzola.click/media/posts/7/responsive/load-enemy-tge-lg.PNG 1200w ,https://cazzola.click/media/posts/7/responsive/load-enemy-tge-xl.PNG 1600w"></figure>
+</div>
+</div>
 <h5>Water shader and enemy outline shader</h5>
+<div class="row">
+<div class="column">
 <p>The shaders for this project was coded in HLSL. To create the water shader I used two normal textures that I slided across each other.</p>
+</div>
+<div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/water-shader-2.gif" alt="" width="639" height="346"></figure>
+</div>
+</div>
+<div class="row">
+<div class="column">
 <p>To get the water more realistic where it meet the rock I calculated the depth between the water pixel and the depth buffer. The closer the distance was the more transparent the water and light blue the water gets.</p>
+</div>
+<div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/water-depth-fade.png" alt="" width="661" height="307" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/7/responsive/water-depth-fade-xs.png 384w ,https://cazzola.click/media/posts/7/responsive/water-depth-fade-sm.png 600w ,https://cazzola.click/media/posts/7/responsive/water-depth-fade-md.png 768w ,https://cazzola.click/media/posts/7/responsive/water-depth-fade-lg.png 1200w ,https://cazzola.click/media/posts/7/responsive/water-depth-fade-xl.png 1600w"></figure>
+</div>
+</div>
+<div class="row">
+<div class="column">
 <p>The outline shader was created by having a second larger model of the enemy with inverted normals so the inside of the model only was visible.</p>
+</div>
+<div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/animated_outline_enemy_smaller.gif" alt="" width="559" height="418"></figure>
+</div>
+</div>
             ]]>
         </content>
     </entry>
