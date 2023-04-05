@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-04-05T09:55:46+02:00</updated>
+    <updated>2023-04-05T10:10:34+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -238,7 +238,7 @@
         <media:content url="https://cazzola.click/media/posts/7/spite-medium.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-04-04T11:51:21+02:00</updated>
+        <updated>2023-04-05T10:08:32+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/7/spite-medium.gif" alt="" />
@@ -296,7 +296,7 @@
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/load-enemy-tge.PNG" alt="" width="648" height="252" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/7/responsive/load-enemy-tge-xs.PNG 384w ,https://cazzola.click/media/posts/7/responsive/load-enemy-tge-sm.PNG 600w ,https://cazzola.click/media/posts/7/responsive/load-enemy-tge-md.PNG 768w ,https://cazzola.click/media/posts/7/responsive/load-enemy-tge-lg.PNG 1200w ,https://cazzola.click/media/posts/7/responsive/load-enemy-tge-xl.PNG 1600w"></figure>
 <h5>Water shader and enemy outline shader</h5>
 <p>The shaders for this project was coded in HLSL. To create the water shader I used two normal textures that I slided across each other.</p>
-<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/water-shader.gif" alt="" width="679" height="368"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/water-shader-2.gif" alt="" width="639" height="346"></figure>
 <p>To get the water more realistic where it meet the rock I calculated the depth between the water pixel and the depth buffer. The closer the distance was the more transparent the water and light blue the water gets.</p>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/water-depth-fade.png" alt="" width="661" height="307" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/7/responsive/water-depth-fade-xs.png 384w ,https://cazzola.click/media/posts/7/responsive/water-depth-fade-sm.png 600w ,https://cazzola.click/media/posts/7/responsive/water-depth-fade-md.png 768w ,https://cazzola.click/media/posts/7/responsive/water-depth-fade-lg.png 1200w ,https://cazzola.click/media/posts/7/responsive/water-depth-fade-xl.png 1600w"></figure>
 <p>The outline shader was created by having a second larger model of the enemy with inverted normals so the inside of the model only was visible.</p>
@@ -478,7 +478,7 @@
         <media:content url="https://cazzola.click/media/posts/2/telos_smaller_size-2.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-04-05T09:55:46+02:00</updated>
+        <updated>2023-04-05T10:10:34+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/2/telos_smaller_size-2.gif" alt="" />
