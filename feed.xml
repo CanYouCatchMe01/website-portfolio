@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-04-11T16:30:32+02:00</updated>
+    <updated>2023-04-11T17:56:39+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -245,7 +245,7 @@
         <media:content url="https://cazzola.click/media/posts/7/spite_smaller.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-04-11T15:43:10+02:00</updated>
+        <updated>2023-04-11T17:48:37+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/7/spite_smaller.gif" alt="" />
@@ -311,7 +311,7 @@
 </div>
 <div class="row">
 <div class="column">
-<p>The programmers was also able to add a component called "ClassContainer" where they could add there own variables they wanted to export to the JSON file.</p>
+<p>The programmers were also able to add a component called "ClassContainer", allowing them to export their own variables to the JSON file. An intuitive dropdown menu enabled them to easily change variable types, made possible through a custom editor.</p>
 </div>
 <div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/class-container.PNG" alt="" width="569" height="576" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/7/responsive/class-container-xs.PNG 384w ,https://cazzola.click/media/posts/7/responsive/class-container-sm.PNG 600w ,https://cazzola.click/media/posts/7/responsive/class-container-md.PNG 768w ,https://cazzola.click/media/posts/7/responsive/class-container-lg.PNG 1200w ,https://cazzola.click/media/posts/7/responsive/class-container-xl.PNG 1600w"></figure>
@@ -319,7 +319,7 @@
 </div>
 <div class="row">
 <div class="column">
-<p>In our engine we load in the values from the JSON file and create a component.</p>
+<p>In our engine, we load in the values from the JSON file and create a component that gets added to our ECS.</p>
 </div>
 <div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/load-enemy-tge.PNG" alt="" width="648" height="252" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/7/responsive/load-enemy-tge-xs.PNG 384w ,https://cazzola.click/media/posts/7/responsive/load-enemy-tge-sm.PNG 600w ,https://cazzola.click/media/posts/7/responsive/load-enemy-tge-md.PNG 768w ,https://cazzola.click/media/posts/7/responsive/load-enemy-tge-lg.PNG 1200w ,https://cazzola.click/media/posts/7/responsive/load-enemy-tge-xl.PNG 1600w"></figure>
@@ -328,7 +328,7 @@
 <h5>Water shader and enemy outline shader</h5>
 <div class="row">
 <div class="column">
-<p>The shaders for this project was coded in HLSL. To create the water shader I used two normal textures that I slided across each other.</p>
+<p>For this project, I wrote custom High Level Shader Language (HLSL) shaders. To create the water shader, I used two normal textures that I animated by sliding them across each other over time.</p>
 </div>
 <div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/7/water-shader-2.gif" alt="" width="639" height="346"></figure>
@@ -363,7 +363,7 @@
         <media:content url="https://cazzola.click/media/posts/6/beat_saber_no_top.gif" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-04-05T10:55:21+02:00</updated>
+        <updated>2023-04-11T17:55:27+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/6/beat_saber_no_top.gif" alt="Beat saber image" />
@@ -380,7 +380,7 @@
 <li aria-level="1">Custom level creation tool to create new levels fast.</li>
 </ul>
 <h5>Why?</h5>
-<p><span data-offset-key="aabu-7-0">I</span><span data-offset-key="aabu-8-0"> created</span><span data-offset-key="aabu-9-0"> my</span><span data-offset-key="aabu-10-0"> version</span><span data-offset-key="aabu-11-0"> of</span><span data-offset-key="aabu-12-0"> Beat</span><span data-offset-key="aabu-13-0"> Saber</span><span data-offset-key="aabu-14-0"> because</span><span data-offset-key="aabu-15-0"> I</span><span data-offset-key="aabu-16-0"> did</span><span data-offset-key="aabu-17-0"> not</span><span data-offset-key="aabu-18-0"> want</span><span data-offset-key="aabu-19-0"> to</span><span data-offset-key="aabu-20-0"> pay</span><span data-offset-key="aabu-21-0"> for</span><span data-offset-key="aabu-22-0"> the</span><span data-offset-key="aabu-23-0"> full</span><span data-offset-key="aabu-24-0"> game</span><span data-offset-key="aabu-25-0">.</span><span data-offset-key="aabu-26-0"> I</span><span data-offset-key="aabu-27-0"> bought</span><span data-offset-key="aabu-28-0"> the</span><span data-offset-key="aabu-29-0"> game</span><span data-offset-key="aabu-30-0"> once</span><span data-offset-key="aabu-31-0"> on</span><span data-offset-key="aabu-32-0"> my</span><span data-offset-key="aabu-33-0"> school</span><span data-offset-key="aabu-34-0">'s</span><span data-offset-key="aabu-35-0"> Steam</span><span data-offset-key="aabu-36-0"> account</span><span data-offset-key="aabu-37-0"> and</span><span data-offset-key="aabu-38-0"> did</span><span data-offset-key="aabu-39-0"> not</span><span data-offset-key="aabu-40-0"> want</span><span data-offset-key="aabu-41-0"> to</span><span data-offset-key="aabu-42-0"> pay</span><span data-offset-key="aabu-43-0"> for</span><span data-offset-key="aabu-44-0"> the</span><span data-offset-key="aabu-45-0"> game</span><span data-offset-key="aabu-46-0"> a</span><span data-offset-key="aabu-47-0"> second</span><span data-offset-key="aabu-48-0"> time</span><span data-offset-key="aabu-49-0"> on</span><span data-offset-key="aabu-50-0"> my</span><span data-offset-key="aabu-51-0"> personal</span><span data-offset-key="aabu-52-0"> account</span><span data-offset-key="aabu-53-0">.</span><span data-offset-key="aabu-54-0"> Beat</span><span data-offset-key="aabu-55-0"> Saber</span><span data-offset-key="aabu-56-0"> is</span><span data-offset-key="aabu-57-0"> a</span><span data-offset-key="aabu-58-0"> relatively</span><span data-offset-key="aabu-59-0"> simple</span><span data-offset-key="aabu-60-0"> game</span><span data-offset-key="aabu-61-0"> to</span><span data-offset-key="aabu-62-0"> make</span><span data-offset-key="aabu-63-0"> and</span><span data-offset-key="aabu-64-0"> I</span><span data-offset-key="aabu-65-0"> wanted</span><span data-offset-key="aabu-66-0"> to</span><span data-offset-key="aabu-67-0"> be</span><span data-offset-key="aabu-68-0"> able</span><span data-offset-key="aabu-69-0"> to</span><span data-offset-key="aabu-70-0"> play</span><span data-offset-key="aabu-71-0"> any</span><span data-offset-key="aabu-72-0"> song</span><span data-offset-key="aabu-73-0">,</span><span data-offset-key="aabu-74-0"> so</span><span data-offset-key="aabu-75-0"> I</span><span data-offset-key="aabu-76-0"> decided</span><span data-offset-key="aabu-77-0"> to</span><span data-offset-key="aabu-78-0"> take</span><span data-offset-key="aabu-79-0"> a</span><span data-offset-key="aabu-80-0"> week</span><span data-offset-key="aabu-81-0"> to</span><span data-offset-key="aabu-82-0"> develop</span><span data-offset-key="aabu-83-0"> a</span><span data-offset-key="aabu-84-0"> prototype</span><span data-offset-key="aabu-85-0"> of</span><span data-offset-key="aabu-86-0"> the</span><span data-offset-key="aabu-87-0"> game</span><span data-offset-key="aabu-88-0"> that</span><span data-offset-key="aabu-89-0"> I</span><span data-offset-key="aabu-90-0"> could</span><span data-offset-key="aabu-91-0"> play</span><span data-offset-key="aabu-92-0">.</span><span data-offset-key="aabu-93-0"> </span></p>
+<p>I created my version of Beat Saber because I did not want to pay for the full game. I bought the game once on my school's Steam account and did not want to pay for the game a second time on my personal account. Beat Saber is a relatively simple game to make and I wanted to be able to play any song, so I decided to take a week to develop a prototype of the game that I could play. </p>
 <figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/Zx0YP4zVIF0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <h5><strong>Fast level creation tool</strong></h5>
 <div class="row">
@@ -393,7 +393,7 @@
 </div>
 <div class="row">
 <div class="column">
-<p>I instead created a tool that lets the developer “records” a song. The developer records the song by swinging his sabers and pressing the trigger button. Then the position, time, color, and sword travel direction gets stored in a file. Then the file can get played back and someone can play the level.</p>
+<p>I instead created a tool that lets the developer “records” a song. The developer records the song by swinging his sabers and pressing the trigger button. Then the position, time, color, and sword travel direction get stored in a file. Then the file can get played back and someone can play the level.</p>
 </div>
 <div class="column">
 <figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/V6AphRKWRGA" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
@@ -539,7 +539,7 @@
         <media:content url="https://cazzola.click/media/posts/2/telos_smaller_size-2.gif" medium="image" />
             <category term="Group Projects"/>
 
-        <updated>2023-04-11T16:09:11+02:00</updated>
+        <updated>2023-04-11T17:56:39+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/2/telos_smaller_size-2.gif" alt="" />
