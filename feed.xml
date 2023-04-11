@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2023-04-11T14:18:09+02:00</updated>
+    <updated>2023-04-11T14:32:12+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -198,7 +198,7 @@
         <media:content url="https://cazzola.click/media/posts/8/one-handed-keyboard.jfif" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2023-04-03T16:49:56+02:00</updated>
+        <updated>2023-04-11T14:32:12+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/8/one-handed-keyboard.jfif" alt="" />
@@ -220,11 +220,23 @@
 <p>The reason I created my own custom keyboard was that I was not satisfied with a normal keyboard to play Fortnite. On a normal keyboard you need <strong>three</strong> fingers to move to press <strong>WASD</strong>. This is a waste of fingers, because in Fortnite you need to press many buttons to build. So I decided to design a keyboard where I had joystick at my thumb, resulting in only <strong>one</strong> finger to be used to move and leaving <strong>four</strong> fingers to press different build buttons.</p>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/8/one-handed-keyboard-3.jfif" alt="" width="475" height="356"></figure>
 <h5>PCB design problem</h5>
-<p><span data-offset-key="4mifb-7-0">This</span><span data-offset-key="4mifb-8-0"> is</span><span data-offset-key="4mifb-9-0"> an</span><span data-offset-key="4mifb-10-0"> image</span><span data-offset-key="4mifb-11-0"> of</span><span data-offset-key="4mifb-12-0"> the</span><span data-offset-key="4mifb-13-0"> PCB</span><span data-offset-key="4mifb-14-0"> design</span><span data-offset-key="4mifb-15-0"> in</span><span data-offset-key="4mifb-16-0"> Ki</span><span data-offset-key="4mifb-17-0">C</span><span data-offset-key="4mifb-18-0">AD</span><span data-offset-key="4mifb-19-0">.</span><span data-offset-key="4mifb-20-0"> One</span><span data-offset-key="4mifb-21-0"> problem</span><span data-offset-key="4mifb-22-0"> that</span><span data-offset-key="4mifb-23-0"> I</span><span data-offset-key="4mifb-24-0"> had</span><span data-offset-key="4mifb-25-0"> when</span><span data-offset-key="4mifb-26-0"> designing</span><span data-offset-key="4mifb-27-0"> the</span><span data-offset-key="4mifb-28-0"> PCB</span><span data-offset-key="4mifb-29-0"> was</span><span data-offset-key="4mifb-30-0"> that</span><span data-offset-key="4mifb-31-0"> my</span><span data-offset-key="4mifb-32-0"> school</span><span data-offset-key="4mifb-33-0"> only</span><span data-offset-key="4mifb-34-0"> had</span><span data-offset-key="4mifb-35-0"> one</span><span data-offset-key="4mifb-36-0">-</span><span data-offset-key="4mifb-37-0">layer</span><span data-offset-key="4mifb-38-0"> PCB</span><span data-offset-key="4mifb-39-0">s</span><span data-offset-key="4mifb-40-0">.</span><span data-offset-key="4mifb-41-0"> But</span><span data-offset-key="4mifb-42-0"> the</span><span data-offset-key="4mifb-43-0"> buttons</span><span data-offset-key="4mifb-44-0"> on</span><span data-offset-key="4mifb-45-0"> a</span><span data-offset-key="4mifb-46-0"> keyboard</span><span data-offset-key="4mifb-47-0"> are</span><span data-offset-key="4mifb-48-0"> connected</span><span data-offset-key="4mifb-49-0"> in</span><span data-offset-key="4mifb-50-0"> a</span><span data-offset-key="4mifb-51-0"> 2</span><span data-offset-key="4mifb-52-0">D</span><span data-offset-key="4mifb-53-0"> grid</span><span data-offset-key="4mifb-54-0"> which</span><span data-offset-key="4mifb-55-0"> makes</span><span data-offset-key="4mifb-56-0"> it</span><span data-offset-key="4mifb-57-0"> best</span><span data-offset-key="4mifb-58-0"> to</span><span data-offset-key="4mifb-59-0"> have</span><span data-offset-key="4mifb-60-0"> a</span><span data-offset-key="4mifb-61-0"> 2</span><span data-offset-key="4mifb-62-0">-</span><span data-offset-key="4mifb-63-0">layer</span><span data-offset-key="4mifb-64-0"> PCB</span><span data-offset-key="4mifb-65-0">,</span><span data-offset-key="4mifb-66-0"> so</span><span data-offset-key="4mifb-67-0"> one</span><span data-offset-key="4mifb-68-0"> layer</span><span data-offset-key="4mifb-69-0"> can</span><span data-offset-key="4mifb-70-0"> have</span><span data-offset-key="4mifb-71-0"> traces</span><span data-offset-key="4mifb-72-0"> that</span><span data-offset-key="4mifb-73-0"> go</span><span data-offset-key="4mifb-74-0"> horizontal</span><span data-offset-key="4mifb-75-0"> and</span><span data-offset-key="4mifb-76-0"> the</span><span data-offset-key="4mifb-77-0"> other</span><span data-offset-key="4mifb-78-0"> layer</span><span data-offset-key="4mifb-79-0"> can</span><span data-offset-key="4mifb-80-0"> have</span><span data-offset-key="4mifb-81-0"> traces</span><span data-offset-key="4mifb-82-0"> that</span><span data-offset-key="4mifb-83-0"> goes</span><span data-offset-key="4mifb-84-0"> vertical</span><span data-offset-key="4mifb-85-0">.</span><span data-offset-key="4mifb-86-0"> After</span><span data-offset-key="4mifb-87-0"> much</span><span data-offset-key="4mifb-88-0"> thought</span><span data-offset-key="4mifb-89-0">, I managed to create traces that only used one layer.</span></p>
+<div class="row">
+<div class="column">
+<p>This is an image of the PCB design in KiCAD. One problem that I had when designing the PCB was that my school only had one-layer PCBs. But the buttons on a keyboard are connected in a 2D grid which makes it best to have a 2-layer PCB, so one layer can have traces that go horizontal and the other layer can have traces that goes vertical. After much thought, I managed to create traces that only used one layer.</p>
+</div>
+<div class="column">
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/8/kicad-pcb.png" alt="" width="351" height="233" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/8/responsive/kicad-pcb-xs.png 384w ,https://cazzola.click/media/posts/8/responsive/kicad-pcb-sm.png 600w ,https://cazzola.click/media/posts/8/responsive/kicad-pcb-md.png 768w ,https://cazzola.click/media/posts/8/responsive/kicad-pcb-lg.png 1200w ,https://cazzola.click/media/posts/8/responsive/kicad-pcb-xl.png 1600w"></figure>
+</div>
+</div>
 <h5>Early prototype</h5>
-<p><span data-offset-key="4mifb-7-0">This</span><span data-offset-key="4mifb-8-0"> is</span><span data-offset-key="4mifb-9-0"> an</span><span data-offset-key="4mifb-10-0"> image</span><span data-offset-key="4mifb-11-0"> of</span><span data-offset-key="4mifb-12-0"> an early prototype of the keyboard. In this image, I did not have a PCB which resulted in 100+ cables and it taking up much space. The reason it has so may cables was that I wanted the user to be able to press all the buttons at the same time.</span></p>
+<div class="row">
+<div class="column">
+<p>This is an image of an early prototype of the keyboard. In this image, I did not have a PCB which resulted in 100+ cables and it taking up much space. The reason it has so may cables was that I wanted the user to be able to press all the buttons at the same time.</p>
+</div>
+<div class="column">
 <figure class="post__image"><img loading="lazy"  style="outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;" src="https://cazzola.click/media/posts/8/early-keyboard-prototype.JPG" alt="" width="280" height="373" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/8/responsive/early-keyboard-prototype-xs.JPG 384w ,https://cazzola.click/media/posts/8/responsive/early-keyboard-prototype-sm.JPG 600w ,https://cazzola.click/media/posts/8/responsive/early-keyboard-prototype-md.JPG 768w ,https://cazzola.click/media/posts/8/responsive/early-keyboard-prototype-lg.JPG 1200w ,https://cazzola.click/media/posts/8/responsive/early-keyboard-prototype-xl.JPG 1600w"></figure>
+</div>
+</div>
             ]]>
         </content>
     </entry>
