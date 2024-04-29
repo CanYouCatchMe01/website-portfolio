@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2024-03-16T11:54:59+01:00</updated>
+    <updated>2024-04-29T21:00:53+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -94,7 +94,7 @@
         <media:content url="https://cazzola.click/media/posts/9/scaleVRsmall.gif" medium="image" />
             <category term="Personal Projects"/>
 
-        <updated>2024-03-16T11:54:59+01:00</updated>
+        <updated>2024-04-29T21:00:53+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/9/scaleVRsmall.gif" alt="" />
@@ -114,7 +114,7 @@
 <li><a href="https://github.com/CanYouCatchMe01/CreateWorldWithOpenAI" target="_blank" rel="noopener noreferrer">Github link.</a></li>
 </ul>
 <p>The user can use voice commands to create, remove, and duplicate objects, and use their hands to move, rotate, and scale objects. This is made possible by the OpenAI API, which allows me to convert spoken text to JSON and read it at runtime.<br><br>In this video I create a snowman⛄</p>
-<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/UThNc4y3I1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div>
+<p><a href="#INTERNAL_LINK#/post/null" title="YouTube video player"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/jNHfuHMAxrc?si=Y1PfzgpYdehUCIsa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
 <h5>Why?</h5>
 <p>I had the idea to create a custom game engine for virtual reality, utilizing OpenXR and DirectX 11 as the graphics API. However, upon researching example projects online, I discovered that the scope was too large for me. Fortunately, I came across an article written by the same person who made the original example project. It described a custom game engine, called StereoKit, specifically designed for virtual reality. I decided to start creating simple projects with it, but still had difficulty coming up with a larger project idea.<br><br>Then, I was introduced into OpenAI's ChatGPT, and was fascinated by its ability to almost understand human conversation. I began to think about what sort of project I could make with OpenAI's API, but still couldn't come up with an idea. Suddenly, it hit me: I could create a VR-level editor in StereoKit, where users could create objects using their voice with the help of OpenAI's API. This was an exciting project, as it would allow me to learn how to use both StereoKit and OpenAI's API.</p>
 <h4>What can the editor do?</h4>
