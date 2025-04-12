@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2025-04-11T21:33:13+02:00</updated>
+    <updated>2025-04-12T07:26:43+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://cazzola.click/media/posts/11/RogueThumb2.gif" medium="image" />
             <category term="Professional Projects"/>
 
-        <updated>2025-04-11T21:33:13+02:00</updated>
+        <updated>2025-04-12T07:26:43+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/11/RogueThumb2.gif" alt="" />
@@ -64,7 +64,7 @@
 <li>The right side uses an inverted rendering mode to highlight what gets culled, everything visible here is actually hidden in the final game due to occlusion culling.</li>
 </ul>
 <p>This side-by-side view helps visualize how much unnecessary geometry is skipped, improving performance.</p>
-<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/YpsrRcYT3bQ?si=RIniR_xK06qlPsfB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/aRh5zXSjrGo?si=4K-bFtHuoU7fng-z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
 <h5>Triangle remover:</h5>
 <p><span style="font-weight: 400;">Many triangles in the game are never visible from any direction so those triangles we can remove. In Rogue, we for example remove 55% of the triangles in the map Wellspring. The triangles that can be removed are for example triangles that are inside of other objects. Like for example here with the two rocks that intersect each other, we can remove the intersection triangles because they are never visible.</span></p>
 <p>Before triangle remover:</p>
