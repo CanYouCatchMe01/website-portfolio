@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2025-04-12T07:26:43+02:00</updated>
+    <updated>2025-04-12T08:14:07+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://cazzola.click/media/posts/11/RogueThumb2.gif" medium="image" />
             <category term="Professional Projects"/>
 
-        <updated>2025-04-12T07:26:43+02:00</updated>
+        <updated>2025-04-12T08:14:07+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://cazzola.click/media/posts/11/RogueThumb2.gif" alt="" />
@@ -38,9 +38,9 @@
 </ul>
 <h5><strong>My contributions:</strong></h5>
 <ul>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">DirectX12 port from DirectX11 (still in development)</span></li>
+<li><span style="font-weight: 400;">DirectX12 port from DirectX11 (<em>in progress</em>)</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Level editor improvements, bug fixes and new tools for the mappers.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Rendering performance optimisations. </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Rendering performance optimisations.</span></li>
 </ul>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/r46FCyEGNwk?si=4qy0jxOO519P5QNz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
 <h5>DirectX12 port:</h5>
@@ -516,7 +516,7 @@
         <id>https://cazzola.click/about-me.html</id>
             <category term="About Me"/>
 
-        <updated>2024-12-21T10:02:48+01:00</updated>
+        <updated>2025-04-12T07:45:22+02:00</updated>
             <summary>
                 <![CDATA[
                     Contact +46 70 148 0959 marcus.cazzola@gmail.com LinkedIn Youtube CV Hello, my name is Marcus Cazzola and I'm a programmer who&hellip;
