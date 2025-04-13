@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2025-04-12T10:12:38+02:00</updated>
+    <updated>2025-04-13T22:01:55+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -16,19 +16,19 @@
         </author>
         <link href="https://cazzola.click/diabotical-rogue.html"/>
         <id>https://cazzola.click/diabotical-rogue.html</id>
-        <media:content url="https://cazzola.click/media/posts/11/RogueThumb2.gif" medium="image" />
+        <media:content url="https://cazzola.click/media/posts/11/toya-front3.jfif" medium="image" />
             <category term="Professional Projects"/>
 
-        <updated>2025-04-12T08:14:07+02:00</updated>
+        <updated>2025-04-13T22:01:55+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://cazzola.click/media/posts/11/RogueThumb2.gif" alt="" />
+                        <img src="https://cazzola.click/media/posts/11/toya-front3.jfif" alt="" />
                     Details: Online first-person shooter released on Steam and Epic Games. Created by The GD Studio with around 40 people. The&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://cazzola.click/media/posts/11/RogueThumb2.gif" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://cazzola.click/media/posts/11/toya-front3.jfif" class="type:primaryImage" alt="" /></p>
                 <h5><strong>Details:</strong></h5>
 <ul>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Online first-person shooter released on Steam and Epic Games.</span></li>
@@ -66,7 +66,7 @@
 <p>This side-by-side view helps visualize how much unnecessary geometry is skipped, improving performance.</p>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/aRh5zXSjrGo?si=4K-bFtHuoU7fng-z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
 <h5>Triangle remover:</h5>
-<p><span style="font-weight: 400;">Many triangles in the game are never visible from any direction so those triangles we can remove. In Rogue, we for example remove 55% of the triangles in the map Wellspring. The triangles that can be removed are for example triangles that are inside of other objects. Like for example here with the two rocks that intersect each other, we can remove the intersection triangles because they are never visible.</span></p>
+<p><span style="font-weight: 400;">Many triangles in the game are never visible from any direction so those triangles can be removed. In Rogue, we for example remove 55% of the triangles in the map Wellspring. The triangles that can be removed are for example triangles that are inside of other objects. Like for example here with the two rocks that intersect each other, we can remove the intersection triangles because they are never visible.</span></p>
 <p>Before triangle remover:</p>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/11/triangle_rem_before.gif" alt="" width="600" height="338"></figure>
 <p>After triangle remover:</p>
