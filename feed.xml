@@ -3,7 +3,7 @@
     <title>Marcus Cazzola&#x27;s Portfolio</title>
     <link href="https://cazzola.click/feed.xml" rel="self" />
     <link href="https://cazzola.click" />
-    <updated>2025-04-20T15:24:47+02:00</updated>
+    <updated>2025-04-21T11:50:13+02:00</updated>
     <author>
         <name>Marcus Cazzola</name>
     </author>
@@ -50,30 +50,22 @@
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/11/leve-editor-drag-drop.gif" alt="" width="540" height="304"></figure>
 <p>One tool I’m particularly proud of is the visibility volume tool. It allows level designers to place custom volumes in the map for occlusion culling. The process starts with creating and connecting 2D planes, which are then extruded into 3D volumes. These volumes are used at runtime to optimize rendering by culling objects outside the player's line of sight.</p>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/ykvZCh4yQGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
-<h5>Occlusion culling and triangle remover:</h5>
-<p>One of the tasks I was responsible for was optimizing rendering performance. A key part of this involved reducing the number of triangles rendered on screen. One of the most straightforward techniques is frustum culling, which improves efficiency by rendering only objects within the camera's view. If an object is outside the camera's frustum, meaning it's behind the player or off to the side, it gets skipped during rendering, saving processing power.</p>
-<figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/11/frustrum-paint-3.png" alt="" width="290" height="227" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/11/responsive/frustrum-paint-3-xs.png 384w ,https://cazzola.click/media/posts/11/responsive/frustrum-paint-3-sm.png 600w ,https://cazzola.click/media/posts/11/responsive/frustrum-paint-3-md.png 768w ,https://cazzola.click/media/posts/11/responsive/frustrum-paint-3-lg.png 1200w ,https://cazzola.click/media/posts/11/responsive/frustrum-paint-3-xl.png 1600w"></figure>
-<p>While frustum culling improves performance by skipping objects outside the camera's view, it doesn’t account for occlusion when one object blocks another from view. For example, if a large sphere is in front of several smaller spheres, frustum culling would still render all of them, even though the smaller ones are completely hidden. This is where occlusion culling comes in, allowing us to avoid rendering objects that are obscured by others.</p>
-<figure class="post__image"><img loading="lazy"  style="outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;" src="https://cazzola.click/media/posts/11/frustrum-occlusion-paint.png" alt="" width="288" height="236" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/11/responsive/frustrum-occlusion-paint-xs.png 384w ,https://cazzola.click/media/posts/11/responsive/frustrum-occlusion-paint-sm.png 600w ,https://cazzola.click/media/posts/11/responsive/frustrum-occlusion-paint-md.png 768w ,https://cazzola.click/media/posts/11/responsive/frustrum-occlusion-paint-lg.png 1200w ,https://cazzola.click/media/posts/11/responsive/frustrum-occlusion-paint-xl.png 1600w"></figure>
-<p><span style="font-weight: 400;">In Diabotical Rogue, we use a baked occlusion culling system optimized for static geometry. Since the levels contain many non-moving objects, this method allows us to precompute visibility and significantly boost runtime performance.</span></p>
-<p><span style="font-weight: 400;">The process begins with level designers placing visibility volumes throughout the map, these define areas from which visibility will be calculated. They then place bake points inside these volumes, which serve as virtual camera positions during the baking process.</span></p>
-<figure class="post__image"><img loading="lazy"  style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;" src="https://cazzola.click/media/posts/11/vis-sections-2.png" alt="" width="388" height="248" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://cazzola.click/media/posts/11/responsive/vis-sections-2-xs.png 384w ,https://cazzola.click/media/posts/11/responsive/vis-sections-2-sm.png 600w ,https://cazzola.click/media/posts/11/responsive/vis-sections-2-md.png 768w ,https://cazzola.click/media/posts/11/responsive/vis-sections-2-lg.png 1200w ,https://cazzola.click/media/posts/11/responsive/vis-sections-2-xl.png 1600w"></figure>
-<p><span style="font-weight: 400;">When the bake process is triggered, the system moves the camera to each bake point and uses DirectX occlusion queries to determine which objects are visible from that point within each volume. The results are saved into a visible object list for each volume.</span></p>
-<p><span style="font-weight: 400;">At runtime, when the player is within a given volume, the engine references that volume’s visible object list to decide what to render. If an object isn’t in the list, it’s not drawn, saving on rendering cost and improving performance. Because visibility is precomputed, the game can perform fast and efficient culling without real-time occlusion checks.</span></p>
-<p>This video demonstrates how occlusion culling works in the game.</p>
-<ul>
-<li>The left side shows the game rendering normally, with all visible objects displayed.</li>
-<li>The right side uses an inverted rendering mode to highlight what gets culled, everything visible here is actually hidden in the final game due to occlusion culling.</li>
-</ul>
-<p>This side-by-side view helps visualize how much unnecessary geometry is skipped, improving performance.</p>
+<h5>Occlusion culling:</h5>
+<p>One of my tasks on Diabotical Rogue was optimizing rendering performance. The engine already had frustum and occlusion culling to skip objects outside the camera’s view, but that wasn’t enough. Many objects were still being rendered even when fully hidden behind others. To solve this, I implemented a new occlusion culling system for static geometry. Mappers placed visibility volumes and bake points in the level, which acted like virtual cameras during baking. The system then used DirectX occlusion queries to figure out what objects were visible from each point. At runtime, the engine checks which volume the player is in and only renders objects marked as visible from that area, no need for real-time occlusion checks. This gave us a big performance boost, especially in detailed levels.<br><br>Here’s a video showing it in action: the left shows normal rendering, while the right highlights what gets culled. Everything visible on the right is actually skipped in game, saving tons of draw calls.</p>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/OAUT3pamL3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div>
 <h5>Triangle remover:</h5>
-<p><span style="font-weight: 400;">Many triangles in the game are never visible from any direction so those triangles can be removed. In Rogue, we for example remove 55% of the triangles in the map Wellspring. The triangles that can be removed are for example triangles that are inside of other objects. Like for example here with the two rocks that intersect each other, we can remove the intersection triangles because they are never visible.</span></p>
-<p>Before triangle remover:</p>
+<p>I noticed that many triangles in our levels were never visible from any angle, especially in areas like the mountains, which were built from intersecting rock meshes. Since the intersection triangles were completely hidden, we could safely remove them. I developed a triangle remover that scans for visible triangles while we bake the occlusion culling. During the baking process, each triangle is assigned a unique ID. All visible triangles draw their ID to a render target texture. At the end of the frame, we read every pixel of that texture to determine which triangles are visible. Any triangle that remains hidden throughout the baking process is removed.</p>
+<p>For example on the "Wellspring" map this optimization alone removed 55% of the triangles:</p>
+<div class="row">
+<div class="column">
+<p>Before triangle remover</p>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/11/triangle_rem_before.gif" alt="" width="600" height="338"></figure>
-<p>After triangle remover:</p>
+</div>
+<div class="column">
+<p>After triangle remover</p>
 <figure class="post__image"><img loading="lazy"  src="https://cazzola.click/media/posts/11/triangle_rem_after.gif" alt="" width="600" height="338"></figure>
-<p>The triangle remover scans for visible triangles while we bake the occlusion culling. During the baking process, each triangle is assigned a unique ID. All visible triangles draw their ID to a render target texture. At the end of the frame, we read every pixel of that texture to determine which triangles are visible. Any triangle that remains hidden throughout the baking process is removed.</p>
+</div>
+</div>
             ]]>
         </content>
     </entry>
